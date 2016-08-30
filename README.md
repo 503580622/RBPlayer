@@ -1,5 +1,7 @@
 # RBPlayer
 
+![RBPlayer](https://raw.githubusercontent.com/itribs/RBPlayer/master/video_player_running_man.jpg)
+
 Some of the  advance features are:
 - Fully customizable UI
 - No view-level restrictions (have it any size and position you would like!)
