@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/itribs/RBPlayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'http://weibo.com/2839148394'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'RBPlayer/Classes/**/*'
   
