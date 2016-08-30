@@ -48,8 +48,8 @@
 
 - (void)setButtonTitleWithRate:(float)rate {
     NSString *rateString = [NSString stringWithFormat:@"%.1fX", rate];
-    if ([rateString hasSuffix:@".0"]) {
-        rateString = [NSString stringWithFormat:@"%dX", (NSInteger)rate];
+    if ([rateString hasSuffix:@".0X"]) {
+        rateString = [NSString stringWithFormat:@"%ldX", (long)rate];
     }
     [self.button setTitle:rateString forState:UIControlStateNormal];
 }

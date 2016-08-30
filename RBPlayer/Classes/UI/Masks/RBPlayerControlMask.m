@@ -98,7 +98,7 @@ typedef NS_ENUM(NSUInteger, RBGestureOperateType) {
 
 - (void)tap:(UITapGestureRecognizer *)gr {
     RBVideoPlayer *player = (RBVideoPlayer *)self.currentPlayerView.currentPlayer;
-    RBPlayerItemAssetMenuMask *itemAssetMenuMask = [[player.view findMaskWithClass:[RBPlayerItemAssetMenuMask class]] firstObject];
+    RBPlayerItemAssetMenuMask *itemAssetMenuMask =  (RBPlayerItemAssetMenuMask *)[[player.view findMaskWithClass:[RBPlayerItemAssetMenuMask class]] firstObject];
     if (itemAssetMenuMask != nil) {
         [player.view removeMask:itemAssetMenuMask animated:YES];
     } else {
@@ -163,15 +163,15 @@ typedef NS_ENUM(NSUInteger, RBGestureOperateType) {
                 CGFloat uint = currentTranslation.x - _startTranslation.x / UNIT_PIXEL;
                 if (ABS(uint) >= 1) {
                     NSUInteger seconds = _oldSeconds + uint;
-                    if (seconds < 0) {
-                        seconds = 0;
-                    } else if (seconds > self.currentPlayerView.currentPlayer.currentItem.duration) {
+                    if (seconds > self.currentPlayerView.currentPlayer.currentItem.duration) {
                         seconds = self.currentPlayerView.currentPlayer.currentItem.duration;
                     }
                     
                     RBVideoPlayer *player = (RBVideoPlayer *)self.currentPlayerView.currentPlayer;
-                    RBPlayerBottomMask *bottomMask = player.bottomMask;
-                    bottomMask.timeSlider.value = (double)seconds / (double)player.currentItem.duration;;
+                    if ([player.bottomMask isKindOfClass:[RBPlayerBottomMask class]]) {
+                        RBPlayerBottomMask *bottomMask = (RBPlayerBottomMask *)player.bottomMask;
+                        bottomMask.timeSlider.value = (double)seconds / (double)player.currentItem.duration;;
+                    }
                 }
             } else {
                 CGFloat uint = currentTranslation.y - _startTranslation.y / UNIT_PIXEL;
@@ -208,9 +208,7 @@ typedef NS_ENUM(NSUInteger, RBGestureOperateType) {
                 CGFloat uint = currentTranslation.x - _startTranslation.x / UNIT_PIXEL;
                 if (ABS(uint) >= 1) {
                     NSUInteger seconds = _oldSeconds + uint;
-                    if (seconds < 0) {
-                        seconds = 0;
-                    } else if (seconds > player.currentItem.duration) {
+                    if (seconds > player.currentItem.duration) {
                         seconds = player.currentItem.duration;
                     }
                     [player seekToSeconds:seconds];

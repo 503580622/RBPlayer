@@ -38,8 +38,6 @@
     
     if (self.superview == nil) return;
     
-    CGRect superviewFrame = self.superview.frame;
-    
     CGFloat height = self.tableView.contentSize.height;
     if (self.menuPosition.y - height - 20 <= 0) {
         height = self.menuPosition.y - 20;
