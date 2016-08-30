@@ -1,0 +1,6 @@
+framework module RBPlayer {
+  umbrella header "RBPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
