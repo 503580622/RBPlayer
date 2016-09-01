@@ -10,4 +10,6 @@
 
 @interface RBMinPlayerViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *contentView;
+
 @end

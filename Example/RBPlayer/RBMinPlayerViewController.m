@@ -21,18 +21,17 @@
     [super viewDidLoad];
     
     self.edgesForExtendedLayout = UIRectEdgeNone;
-    self.view.backgroundColor = [UIColor whiteColor];
     
     NSString *url = @"http://v.jxvdy.com/sendfile/HbTMxpilOKa7NyPRqdN3FDvIrYgTLhBMB5Hj_-dHcy5IPDOZXFD1HW2WgQUYTpDcBSnUL2xD5rDf2BujUbiMg6_rJl50vg";
     
     self.player = [[RBVideoPlayer alloc] init];
     //self.player.view.ignoreScreenSystemLock = YES;
-    [self.view addSubview:self.player.view];
+    [self.contentView addSubview:self.player.view];
     
     self.player.view.delegate = self;
     self.player.view.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[playerView]-50-|" options:0 metrics:nil views:@{@"playerView":self.player.view}]];
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-50-[playerView(200)]" options:0 metrics:nil views:@{@"playerView":self.player.view}]];
+    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-30-[playerView]-10-|" options:0 metrics:nil views:@{@"playerView":self.player.view}]];
+    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-50-[playerView(200)]" options:0 metrics:nil views:@{@"playerView":self.player.view}]];
     
     RBPlayerItem *item = [[RBPlayerItem alloc] init];
     item.title = @"这都是什么jb电影";

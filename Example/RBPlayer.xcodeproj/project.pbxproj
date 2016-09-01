@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D8C94961D6AC74F0001C05B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8C94951D6AC74F0001C05B /* Launch Screen.storyboard */; };
+		1DE9F8EB1D78150500EA3812 /* RBMinPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9F8EA1D78150500EA3812 /* RBMinPlayerViewController.xib */; };
 		1DF2A8B81D6BF4FE000F77D6 /* RBMinPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF2A8B71D6BF4FE000F77D6 /* RBMinPlayerViewController.m */; };
 		3E431BAE9015E89AF0BA7B28 /* Pods_RBPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CB34851F24EF1B29097713 /* Pods_RBPlayer_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -41,6 +42,7 @@
 		0FF8528363914F045E23D7C1 /* Pods-RBPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBPlayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBPlayer_Tests/Pods-RBPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		13AA3072ABA0F345AFA83E28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1D8C94951D6AC74F0001C05B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1DE9F8EA1D78150500EA3812 /* RBMinPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBMinPlayerViewController.xib; sourceTree = "<group>"; };
 		1DF2A8B61D6BF4FE000F77D6 /* RBMinPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBMinPlayerViewController.h; sourceTree = "<group>"; };
 		1DF2A8B71D6BF4FE000F77D6 /* RBMinPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMinPlayerViewController.m; sourceTree = "<group>"; };
 		249C582E927D93E5ADE2AD2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				6003F5A6195388D20070C39A /* RBViewController.m */,
 				1DF2A8B61D6BF4FE000F77D6 /* RBMinPlayerViewController.h */,
 				1DF2A8B71D6BF4FE000F77D6 /* RBMinPlayerViewController.m */,
+				1DE9F8EA1D78150500EA3812 /* RBMinPlayerViewController.xib */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -288,6 +291,7 @@
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				1D8C94961D6AC74F0001C05B /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				1DE9F8EB1D78150500EA3812 /* RBMinPlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

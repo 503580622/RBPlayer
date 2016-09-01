@@ -151,7 +151,15 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
 
 - (void)seekToSeconds:(NSUInteger)seconds {
     [self seekToSeconds:seconds completionHandler:^(BOOL finished) {
-        self.state = RBPlayerStateBuffering;
+        NSUInteger canPlaySeconds = self.currentItem.currentSeconds + self.playInMoreBufferSeconds;
+        if (canPlaySeconds > self.currentItem.duration) {
+            canPlaySeconds = self.currentItem.duration;
+        }
+        if (self.currentItem.bufferedSeconds >= canPlaySeconds) {
+            self.state = RBPlayerStatePlaying;
+        } else {
+            self.state = RBPlayerStateBuffering;
+        }
     }];
 }
 
@@ -257,7 +265,11 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
         [self.currentItem updateBufferedSeconds:bufferedSeconds];
         
         if (self.state == RBPlayerStateBuffering) {
-            if (bufferedSeconds > self.currentItem.currentSeconds + self.playInMoreBufferSeconds) {
+            NSUInteger canPlaySeconds = self.currentItem.currentSeconds + self.playInMoreBufferSeconds;
+            if (canPlaySeconds > self.currentItem.duration) {
+                canPlaySeconds = self.currentItem.duration;
+            }
+            if (bufferedSeconds >= canPlaySeconds) {
                 self.state = RBPlayerStatePlaying;
             }
         }
