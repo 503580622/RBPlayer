@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RBPlayer'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'customizable Video Player, based on AVPlayer.'
 
 # This description is used to generate tags and improve search results.
