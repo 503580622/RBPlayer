@@ -2,7 +2,7 @@
 //  RBPlayerControlMask.m
 //  Pods
 //
-//  Created by 黄泽新 on 16/8/24.
+//  Created by Ribs on 16/8/24.
 //
 //
 
@@ -111,7 +111,7 @@ typedef NS_ENUM(NSUInteger, RBGestureOperateType) {
 }
 
 - (void)doubleTap:(UITapGestureRecognizer *)gr {
-    [self.currentPlayerView.currentPlayer stop];
+    [self.currentPlayerView.currentPlayer resumeOrPause];
 }
 
 - (void)pan:(UIPanGestureRecognizer *)gr {

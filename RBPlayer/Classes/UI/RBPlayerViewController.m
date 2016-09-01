@@ -2,7 +2,7 @@
 //  RBPlayerViewController.m
 //  Pods
 //
-//  Created by 黄泽新 on 16/8/23.
+//  Created by Ribs on 16/8/23.
 //
 //
 

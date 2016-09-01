@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## RBPlayer
 
-Copyright (c) 2016 黄泽新 <234126357@qq.com>
+Copyright (c) 2016 Ribs <234126357@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

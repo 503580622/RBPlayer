@@ -2,7 +2,7 @@
 //  NSBundle+RBPlayer.m
 //  Pods
 //
-//  Created by 黄泽新 on 16/8/30.
+//  Created by Ribs on 16/8/30.
 //
 //
 

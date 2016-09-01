@@ -2,8 +2,8 @@
 //  RBMinPlayerViewController.m
 //  RBPlayer
 //
-//  Created by 黄泽新 on 16/8/23.
-//  Copyright © 2016年 黄泽新. All rights reserved.
+//  Created by Ribs on 16/8/23.
+//  Copyright © 2016年 Ribs. All rights reserved.
 //
 
 #import "RBMinPlayerViewController.h"

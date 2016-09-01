@@ -2,7 +2,7 @@
 //  RBPlayerControlMask.h
 //  Pods
 //
-//  Created by 黄泽新 on 16/8/24.
+//  Created by Ribs on 16/8/24.
 //
 //
 

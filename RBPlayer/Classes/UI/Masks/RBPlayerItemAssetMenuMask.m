@@ -2,7 +2,7 @@
 //  RBPlayerItemAssetMask.m
 //  Pods
 //
-//  Created by 黄泽新 on 16/8/25.
+//  Created by Ribs on 16/8/25.
 //
 //
 

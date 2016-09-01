@@ -2,7 +2,7 @@
 //  RBPlayerView.m
 //  Pods
 //
-//  Created by 黄泽新 on 16/8/22.
+//  Created by Ribs on 16/8/22.
 //
 //
 #import "RBPlayerView.h"
@@ -194,13 +194,13 @@ NSString *const RBPlayerViewWillChangeFromOrientationKey = @"RBPlayerViewWillCha
         if (isChangeFullScreen) {
             
             if ([weakSelf.currentPlayer.fullScreenContainerView.superview isEqual:keyWindow]) {
-                CGRect windowBounds = keyWindow.bounds;
-                weakSelf.currentPlayer.fullScreenContainerView.frame = windowBounds;
+                weakSelf.currentPlayer.fullScreenContainerView.frame = keyWindow.bounds;
             }
             
             if (!isOriginalFullScreen) {
                 
                 if (weakSelf.currentPlayer.fullScreenContainerView.superview == nil) {
+                    weakSelf.currentPlayer.fullScreenContainerView.frame = keyWindow.bounds;
                     [keyWindow addSubview:weakSelf.currentPlayer.fullScreenContainerView];
                 }
                 

@@ -2,7 +2,7 @@
 //  RBPlayerTimeSlider.m
 //  Pods
 //
-//  Created by 黄泽新 on 16/8/22.
+//  Created by Ribs on 16/8/22.
 //
 //
 
@@ -61,7 +61,8 @@ static void *RBPlayerTimeSliderObserverContext = &RBPlayerTimeSliderObserverCont
         [self.layer addSublayer:self.valueLayer];
         [self.layer addSublayer:self.thumbLayer];
         
-        [self addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)]];
+        [self addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)]];
+        [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)]];
         
         for (NSString *keyPath in RBPlayerTimeSliderObservedKeyPaths()) {
             if ([self respondsToSelector:NSSelectorFromString(keyPath)]) {
@@ -146,7 +147,18 @@ static void *RBPlayerTimeSliderObserverContext = &RBPlayerTimeSliderObserverCont
 
 #pragma mark - selector
 
-- (void)longPress:(UILongPressGestureRecognizer *)gr {
+- (void)tap:(UITapGestureRecognizer *)gr {
+    CGFloat locationX = [gr locationInView:self].x;
+    [CATransaction setDisableActions:YES];
+    self.value = locationX / self.bounds.size.width * self.maximumValue;
+    [CATransaction setDisableActions:NO];
+    
+    [self sendActionsForControlEvents:UIControlEventTouchDown];
+    [self sendActionsForControlEvents:UIControlEventValueChanged];
+    [self sendActionsForControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)pan:(UIPanGestureRecognizer *)gr {
     
     CGFloat locationX = [gr locationInView:self].x;
     if (locationX < 0) locationX = 0;
