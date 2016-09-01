@@ -1,5 +1,5 @@
 PODS:
-  - RBPlayer (0.1.0)
+  - RBPlayer (0.1.3)
 
 DEPENDENCIES:
   - RBPlayer (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  RBPlayer: 5e7d5100f30c626037b168f7ceef5d55942da2fc
+  RBPlayer: 7f9bdcdff061f672b4e623565314690b4fee8443
 
 PODFILE CHECKSUM: 878f59e9c907274e4daa7f1dda2020c8bf4be658
 

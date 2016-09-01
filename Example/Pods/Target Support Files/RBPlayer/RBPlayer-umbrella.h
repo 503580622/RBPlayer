@@ -1,5 +1,7 @@
 #import <UIKit/UIKit.h>
 
+#import "NSBundle+RBPlayer.h"
+#import "UIImage+RBPlayer.h"
 #import "RBCorePlayer.h"
 #import "RBPlayerChangeOrientationOperation.h"
 #import "RBPlayerContainerView.h"

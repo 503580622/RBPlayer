@@ -7,74 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06F793FC1DACF6A7D3733B5BFC3902F8 /* RBPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5C225554F60DC2B3EAA540FC908261 /* RBPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CEE7ED58B57A1B571FA66342B778E5B /* rb_player_play_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB78ADD971A92C039127647A39B35B3 /* rb_player_play_btn@2x.png */; };
-		133FA28A66824E242FE15AA8250859A3 /* RBPlayerControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8953B162BF1E5DDFA5B889A42F22C84B /* RBPlayerControlButton.m */; };
-		156AFBAC7C6BC003DCF28A9486AB0EFA /* RBPlayerTopMask.h in Headers */ = {isa = PBXBuildFile; fileRef = E50E429C30DE86A1FB5FFE1E648C7B33 /* RBPlayerTopMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18C64255955A3E97191CBA9DDB719547 /* RBPlayerControlButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DECF88AA8F357D17C2E5E54A5DB4C1 /* RBPlayerControlButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ADCA04BA354EA46F2B710134EFDCC93 /* RBPlayerBottomMask.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A2DE24AB99C7413184ABE573EBB36C /* RBPlayerBottomMask.m */; };
-		1D3027011D755BFD0072E707 /* rb_player_pause_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3027001D755BFD0072E707 /* rb_player_pause_btn@2x.png */; };
-		1D3027051D755E640072E707 /* NSBundle+RBPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3027031D755E640072E707 /* NSBundle+RBPlayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1D3027061D755E640072E707 /* NSBundle+RBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3027041D755E640072E707 /* NSBundle+RBPlayer.m */; };
-		1D3027091D755EE30072E707 /* UIImage+RBPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3027071D755EE30072E707 /* UIImage+RBPlayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1D30270A1D755EE30072E707 /* UIImage+RBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3027081D755EE30072E707 /* UIImage+RBPlayer.m */; };
-		1F1620D65E662BDFC2C2AD3C76AB1A33 /* RBPlayerContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C513A647F6EC11520ECD5A573134E3 /* RBPlayerContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20251C3ABB50FEE051A838E7ACFDEBF8 /* rb_player_play_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 610F0B76ADD54282AD09365974EB0A3F /* rb_player_play_btn@3x.png */; };
-		236526B53EC1573B592E2313DFA3846F /* RBCorePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE187C665C1BD996146B37A4A4322CDC /* RBCorePlayer.m */; };
-		2461255C3B0D0B15C67DA283D2146289 /* RBPlayerControlRateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7190FA50FDC84BC952AC78E3965EDC46 /* RBPlayerControlRateButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C0152D8AD8114D8840CF46F9CED88B5 /* RBPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86FEF88150A5503E2B8AB254C609C35 /* RBPlayerViewController.m */; };
-		2F5B8A95935D0D03C3EE1E25785BE238 /* RBPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A39AFB0E4B8CAA3DAAFF60F48432B255 /* RBPlayerView.m */; };
-		30853BA391285F877800B52CEBFD7558 /* RBPlayerControlFullScreenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA3D2223867B4A0030B9BF4BD477DA /* RBPlayerControlFullScreenButton.m */; };
+		0EE67D0136F4D3D14D334762A43913ED /* rb_player_pause_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDAB0CEB0ADF2C90E94E4EB7F615804 /* rb_player_pause_btn@2x.png */; };
+		0EE99502D75CB0703B010BB43C39978A /* RBPlayerTopMask.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BBE80B2A6D718F30EC7F6EC77B9268 /* RBPlayerTopMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		124D808EF80FE8C3FCE81BE5F4AED27F /* rb_player_minScreen_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE81722FF265942F06EBDB290D11850 /* rb_player_minScreen_btn@3x.png */; };
+		1B9EFF3F2D31DBA4203D579C0E3B59D3 /* rb_player_play_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 463D041114AD95FF6100FE9475E5935A /* rb_player_play_btn@2x.png */; };
+		1D97DFF2E2C88E1C70EBCBF94F4595B9 /* RBPlayerControlRateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14F3E36AC94CB38F61B2D2FC472FC1 /* RBPlayerControlRateButton.m */; };
+		1E9C929300C2D3543E81306C7E5A5879 /* RBPlayerSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C445B149299C689B8A8F2776B0D7EE /* RBPlayerSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26865CF629AA7DFBF488307F7AF68924 /* RBPlayerControlItemAssetMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CCCAF212E7A0756D09102473F604613 /* RBPlayerControlItemAssetMenuButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287EAA9A93F138223927B6EE8E864186 /* RBPlayerOrientationDmonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6118E798727BEAB9A6A0BD1D91F3C704 /* RBPlayerOrientationDmonitor.m */; };
+		2A53DB760BC163503B9A127C439CF2B8 /* RBPlayerControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B982465C86E7B562F3FDE987BD7E11 /* RBPlayerControlButton.m */; };
+		2C1BCAE48C391EE5661DACE0F662F2AB /* RBPlayerViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C880F477DFC3FD4E770E0C0658D64 /* RBPlayerViewMask.m */; };
+		2DF5BCCB29EC3A6E955314CD49C496F1 /* RBPlayerBottomMask.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CB8CC928E42BE970625B50B01A3E3C /* RBPlayerBottomMask.m */; };
+		3313BF62D8C12C74E3E2EFFDD5CB836B /* RBPlayerControlMask.m in Sources */ = {isa = PBXBuildFile; fileRef = A19CE833BC903CF347FF5531C2B5614D /* RBPlayerControlMask.m */; };
+		380255018B9AE6EDE06C8ACCC3D75B82 /* RBPlayerContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 668DEBDAD9FC8F6D08C55728210BD901 /* RBPlayerContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38C291B93921E878C68E2CD8E509C8EF /* Pods-RBPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58BE95A52073E7F3AA0113511049D688 /* Pods-RBPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B29C42A69E70CAAB48503403C65592D /* RBPlayerBottomMask.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C8C7E30A679B7B0F9DC55C721746E0 /* RBPlayerBottomMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B82B8A40E98E08BCE39F4A8E3149D02 /* RBPlayerViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D191C0FEE4AA9CA9F7E5D7A7210EA /* RBPlayerViewMask.m */; };
-		3D78B3BAAD06D16CA4A1B4409C8214E3 /* RBPlayerControlMask.m in Sources */ = {isa = PBXBuildFile; fileRef = C6641102B25FC6647387335E332C36D1 /* RBPlayerControlMask.m */; };
 		40F94EEF12F87A47A53E299B0A922D64 /* Pods-RBPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B39B6AB845151DB495E100E8E762C7 /* Pods-RBPlayer_Example-dummy.m */; };
-		4318AA065918130CEF1DD7F398AD0B49 /* RBPlayerTopMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4118B4080E45830CE84F4440E35867C4 /* RBPlayerTopMask.m */; };
+		449979EE6A71FE2F8FACE893D77244A2 /* RBPlayerViewMask.h in Headers */ = {isa = PBXBuildFile; fileRef = C6400F2D21662E34AF4F8FD96C0B5544 /* RBPlayerViewMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45F4721572C7A249DD8BA19D657F33F8 /* Pods-RBPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5003ACE7DFE5833F77679C91B43AD456 /* Pods-RBPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		478319A4C1D2A904F5B8FED09450D197 /* RBVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 375764047442B152DEA69418ADE317E6 /* RBVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54CC9248C73217BF05D5DD4136379B02 /* RBPlayerItemAssetMenuMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DCDB5CF01270A7A0A19C665439BA39 /* RBPlayerItemAssetMenuMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66B4BE0690FA574B640D6F606EE4C8FB /* rb_player_pause_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 033B2718E07001EC31A52DC80B23A838 /* rb_player_pause_btn@3x.png */; };
-		6983E7982FE91BE8EBE9DA9309497A61 /* RBPlayerControlFullScreenButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FECDC6B48FFEE8DC50E6BEB3E458FEE /* RBPlayerControlFullScreenButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A2CCD5AA00CBD4BD3EAE717E713FFD4 /* RBPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BF82FC1391B1E6A3E50046FBCEFB4B /* RBPlayerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C1B1F64BEAF7963F62FC079C2E88B33 /* RBPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6D3AB930EF51DBBCB505281F230E8 /* RBPlayerItem.m */; };
+		49671E8631DB5DAC8AF1863CDC29D4AD /* rb_player_fullScreen_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F29ADE55D751410DF88C1D6389A81AF4 /* rb_player_fullScreen_btn@3x.png */; };
+		4B2EDD37808374EDFD78325D1C92ACB5 /* RBPlayerOrientationDmonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A414E5A19D9110E02FC6A5AB1FF62E7 /* RBPlayerOrientationDmonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51AA5BAED5971A458F3360187AC745CB /* rb_player_back_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E62C32DC41EF57B7EEDFD259898E539 /* rb_player_back_btn@3x.png */; };
+		54EDC5F6BE7EEF454F9CEBF6F651FD78 /* RBPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E34F36D18DB1BDE44C15958C5DB46E /* RBPlayer-dummy.m */; };
+		5688E6EF445D3D9AD902A64182513366 /* RBPlayerTopMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC18A976229BA69E5C15B0D7B8ABB6 /* RBPlayerTopMask.m */; };
+		5979FBA4665B33D71BDA131016F19C0A /* rb_player_play_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD636D741D8902DE8DA3524DDCD93E3 /* rb_player_play_btn@3x.png */; };
+		62005EE8FB46E98A347FFF8003028B49 /* NSBundle+RBPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 746365A6AB1B58F7FE35330C02F28975 /* NSBundle+RBPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		693D476A9F683F92FF2ED3ECF7132CD1 /* RBPlayerLoadingMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADCD1F41DFE67E9280C314387F8A5F4 /* RBPlayerLoadingMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D8B6FC0E7506CCD1E81FDC846D0D8F5 /* rb_player_minScreen_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8117E2CBA5EA9395975D467205671325 /* rb_player_minScreen_btn@2x.png */; };
+		71CC8902BC23577E3E0C8EFED83DD54A /* RBPlayerBottomMask.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF77F0A64588BB42BF9685BA981835E /* RBPlayerBottomMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B748C215E13804484E31BC37FA19A4 /* rb_player_fullScreen_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C9A689F160C8F783E05856EF6515F6 /* rb_player_fullScreen_btn@2x.png */; };
 		74E51015D759A72342FB1EC4035E0F28 /* Pods-RBPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD09257C54D6F5B4CD8275B303E7387 /* Pods-RBPlayer_Tests-dummy.m */; };
-		7AFC97920D1D67B14E24C4AA1A34DF23 /* RBPlayerControlRateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9CAA80B12C4D25280AFED78F009539 /* RBPlayerControlRateButton.m */; };
-		85A40CB740A7FA0876D7DF35D6F0C835 /* RBPlayerChangeOrientationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4288C1F083495BB2DCBAD9979E021 /* RBPlayerChangeOrientationOperation.m */; };
-		8A296220F436C9D66B66455511A9777B /* RBPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA664CA05C5AF85998CF008DD8068262 /* RBPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CDE6BFF1D4EE8B6FF1B84085D63FA55 /* RBPlayerControlMask.h in Headers */ = {isa = PBXBuildFile; fileRef = F45C248DF67ED7970979D12E8A21EB34 /* RBPlayerControlMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E9B37D6DB3FE518C9DC38CBBF861579 /* RBPlayerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1FD4BB747904BFBB323E6C727E979 /* RBPlayerContainerView.m */; };
-		91858FC1BAB81A4CEFE7A06B8D6B65D8 /* rb_player_fullScreen_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56C1BB5A3AF30B095D60EEFA3830B762 /* rb_player_fullScreen_btn@3x.png */; };
-		94597CC1AA111607BCE776EC181CA358 /* RBPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BE685769E228E714AA3100F9E23114E9 /* RBPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94F61FC015930C00BCC9E5F3805387B5 /* RBPlayerMenuMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF07231598C1698B9FF6BECCBD14B93 /* RBPlayerMenuMask.m */; };
-		95E354E9A3B75A364E6CE9913E924E05 /* RBPlayerControlPlayOrPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2506F2D62CDBE20652EDACF24D5D8674 /* RBPlayerControlPlayOrPauseButton.m */; };
+		78C7D8F2DAC14F79D4B663F40C7EA9F6 /* RBPlayerControlFullScreenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F18896F60765D09D2092891139E3437C /* RBPlayerControlFullScreenButton.m */; };
+		793359C7C4238CF79E6157858D0EAF92 /* RBPlayerControlBackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 698A8FD00E594268A51908E9B68547FB /* RBPlayerControlBackButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C09F83D1826CEFB414AC910DAB15703 /* RBPlayerControlItemAssetMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1663A617A02EB2766072339983596F /* RBPlayerControlItemAssetMenuButton.m */; };
+		7FCFC517DB0419F4601A06EE72C14879 /* RBPlayerControlRateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8D22EC2310E3A4211F448D0F8578B3 /* RBPlayerControlRateButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8688C873DAE9313FD81EE68B9CD4AA4B /* RBPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C108FC8A35EAA9A45410DA28C1174F7 /* RBPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F5F00087328A9F9239AB2E841E3678 /* RBPlayerMenuMask.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CD52AD1FE81111B51A1F1AD977C1A4 /* RBPlayerMenuMask.m */; };
+		8903EC777F39915BD001D2ECED89340C /* RBPlayerControlBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 398616A0398FF907351EA3589212E043 /* RBPlayerControlBackButton.m */; };
+		9481BF2949BD0ED3AAA57D9D14D98BE0 /* RBVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFFE22FDDA7D771A9C70752C3D592B5 /* RBVideoPlayer.m */; };
 		96027982D987EAB504B363EE08C97E36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		977BE68E3217A19DB33E2AEE0D338FA6 /* RBPlayerControlPlayOrPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4A54B301C559FE1C66C3C5F9ED64BD /* RBPlayerControlPlayOrPauseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99A9CC90D78E167537E9A963F9F56FD9 /* RBPlayerChangeOrientationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E11A66832BB6AA312CB5B82DE937683 /* RBPlayerChangeOrientationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A4AE8E10DB47FAB50C1212345DA0BFE /* RBPlayerItemAssetMenuMask.m in Sources */ = {isa = PBXBuildFile; fileRef = D72951410967DB4219C9D3B54CCD4CD4 /* RBPlayerItemAssetMenuMask.m */; };
-		ABBA841D243593EA9CD09A897195FE87 /* rb_player_fullScreen_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F80AEB102B40F2A177849A3FB3473284 /* rb_player_fullScreen_btn@2x.png */; };
+		991832388ABDE0165656E14DF2203334 /* RBPlayerControlFullScreenButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1690C75ECD35638EAEF2C13B0E8E6F /* RBPlayerControlFullScreenButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0BD504CA88CE022E1F45EE93B36498 /* UIImage+RBPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C22677D6F0BBF1F3B51D8A9C03BB0B08 /* UIImage+RBPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CE5C44B886F4EA8D6CA865FFAEA9EA7 /* RBPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F51E126F333355087E149CA25ABCC391 /* RBPlayerView.m */; };
+		A083F16713DBA74F449E1D31E9800A02 /* RBPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 658F5B89807F2C806BC3092D51B35945 /* RBPlayerItem.m */; };
+		A0CF01A914F918E8CF6DF5600AA1455A /* RBPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B468E429167CD57F5F19778C2D3BAA8 /* RBPlayerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E25D9AC62072D744A3E63AC6F2A5AA /* RBPlayerItemAssetMenuMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F47E7E11F407C17772AD446621306F8 /* RBPlayerItemAssetMenuMask.m */; };
+		A3065826C89847159D0C72E10DCC5039 /* NSBundle+RBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F34DDD0D2C5F205E089864D99F500C37 /* NSBundle+RBPlayer.m */; };
+		A48D645F36CDFE69800AA54F049C3B70 /* RBPlayerMenuMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 5111C25B2CCDDF0E2C0E986CC5D5700D /* RBPlayerMenuMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5DA63E0D1808742C6AFEC126B6D6837 /* RBPlayerLoadingMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E666BCB8EBF34D72BBFEFB24102DD8 /* RBPlayerLoadingMask.m */; };
+		A67B3018F6A16D212ADB5A7D6DE9E83A /* RBPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5C225554F60DC2B3EAA540FC908261 /* RBPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0A49FA68FBE7E7D527E3AE1656BA01 /* rb_player_back_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F66BA1416F6BDCC0BC59C526F2922BF3 /* rb_player_back_btn@2x.png */; };
 		AC42E451AB855D281E48F4F59593C27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		AEEE84B7F7A00AAA7B7CDD4F4C2DA551 /* RBVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08790FDAD61812F3C88DB4A4CFB656A9 /* RBVideoPlayer.m */; };
-		AFDED2FB3725609D2B17AA059602393A /* rb_player_back_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6B44578746F61B9318D3378C3CE339 /* rb_player_back_btn@2x.png */; };
+		AEAC0F8E2E0CA5C7687C53FBC1C4DE76 /* RBCorePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1A6F3412E9C140DA5C31DA667AADE9 /* RBCorePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B21DE6F1EA76947BECE93CB7AD77A486 /* RBPlayerControlButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9C926B3E4C58258AF66A7989B3B885 /* RBPlayerControlButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B279C0D03E23B29D0E69081C9E1CBD26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B55F0AEE1FBE5DEB855DDF4727EA6501 /* RBPlayerSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 57393C779F07D9820680663A7806F1ED /* RBPlayerSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7403647241A9B7DE3EA86E6A04BE0EB /* RBPlayerControlBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5ADA530D4F2F009914D5AFBD214E2 /* RBPlayerControlBackButton.m */; };
-		C5E2EA0819DB83CC90AD49EAAA466393 /* RBPlayerViewMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCFB9DB1D462C0C0633846615E36F29 /* RBPlayerViewMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C93FEB9DE76690F7C3A198406947D489 /* RBPlayerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AB380891C2542B2ABA00B5845C984 /* RBPlayerSlider.m */; };
-		CE1275C8770872A0FA371A192349890D /* RBPlayerMenuMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B2CA9D3F69FCD0997DC4F2BADB3D58 /* RBPlayerMenuMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF45CB2E9E4D6A6D75B361C1A4807961 /* RBPlayerOrientationDmonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C66162A9CF4AFCC0AF87E160F8AA58 /* RBPlayerOrientationDmonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D92131B27B17F77BBE28F3E83C43480C /* RBPlayerControlBackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5579B38E3AD46F9C605CB146EF0E6D2B /* RBPlayerControlBackButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0DA2E283FF5E509E93FD7EB5B5E7315 /* rb_player_minScreen_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9685EAE5284864898EA76DA79C923A59 /* rb_player_minScreen_btn@3x.png */; };
-		E295757FBB5993207C64B1A09DB9927E /* rb_player_back_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B8E4912D63C17DCE10430140C8E2D /* rb_player_back_btn@3x.png */; };
-		E3E847B77EB5A26E1E0BAE4B1B36A2AE /* RBPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E34F36D18DB1BDE44C15958C5DB46E /* RBPlayer-dummy.m */; };
+		B655EEE5192AD40AEDC68B689EC4210E /* RBCorePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B11DA72AC06318163813C8F62557FAC /* RBCorePlayer.m */; };
+		B6D655639F73CFC6A9286AA0CA441741 /* RBPlayerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DED2C6B64469C272B1A5F9F07E2A64 /* RBPlayerSlider.m */; };
+		B7FE5CF944D90519F196694DB8A85110 /* RBPlayerChangeOrientationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B0B91AECC3821F7C7D99BC2354D58D /* RBPlayerChangeOrientationOperation.m */; };
+		C651E1559F8D82DCBC3CD7CBA14CE839 /* RBPlayerItemAssetMenuMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 2873BFB1FBAE7E91B693BEAEF8C1D3E3 /* RBPlayerItemAssetMenuMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB26920F3158184CF5AB08551993B208 /* RBPlayerControlPlayOrPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E22E982117569C1980A4029AD95BBE12 /* RBPlayerControlPlayOrPauseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D14D0D58B6DFD209DCFDC44C2F8A045A /* RBPlayerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4552026115AEB23101D31F01738846B6 /* RBPlayerContainerView.m */; };
+		D444BBE003B5DE950A553489A29B3A77 /* RBVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EF007AB142242369628A6E39A15563 /* RBVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B242D2FFC5F64522F60871BDABE49F /* RBPlayerControlMask.h in Headers */ = {isa = PBXBuildFile; fileRef = B0393051A66D3E063D9CF2F96E62C4B6 /* RBPlayerControlMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9BEB227A9F9F86D3A050E3A8FF1908D /* RBPlayerChangeOrientationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 580B7C86C0A36DBD32F7751A2D8152C0 /* RBPlayerChangeOrientationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E02F848F40EC4E7D9D18EDBFDA975584 /* rb_player_pause_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 591F17492D9A32F45C3FF2BEB398AEC3 /* rb_player_pause_btn@3x.png */; };
+		E0FAA269D0B3FEFB9A432251A5260584 /* RBPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67E7D010DF9C6676DD78ABA2959D947 /* RBPlayerViewController.m */; };
 		E5A9296D28FE49430EE085D28CF0E594 /* RBPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A1ADB410773F9ADBD0E2927603B30F0 /* RBPlayer.bundle */; };
-		EA74D4B6B9917847B643F9F5FB6D4283 /* RBPlayerOrientationDmonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B94583B5118365CD6E5C111BAD5F9 /* RBPlayerOrientationDmonitor.m */; };
-		EAB2CADBF92EFAC99E7C3827D1EAEB0C /* RBPlayerLoadingMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A1CEC2A221E9D5C774A50D65042E49 /* RBPlayerLoadingMask.m */; };
-		ECB679416E0E7CEC98F1EF4525A362F7 /* RBCorePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 70550F0370A12AE6D1681926D28B0A93 /* RBCorePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F062F3FC171E41CA87AE27BAEB23A540 /* RBPlayerControlItemAssetMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A49C6B1E243B61956D1AD17EDC9FDA00 /* RBPlayerControlItemAssetMenuButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F635F75A0E9D61228608AB056512F3AA /* RBPlayerLoadingMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DDE51CE61A050647640F1F4FA7BE16 /* RBPlayerLoadingMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7BF568B95B28A31DD2293F9CF0FC53B /* RBPlayerControlItemAssetMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4C99EF4BD3DFBEF0C5C35E5F75368 /* RBPlayerControlItemAssetMenuButton.m */; };
-		FD61E24AED01A5AB1A132CC5AEEEC718 /* rb_player_minScreen_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92F99DF78A977D13177BE4E4F611EE1 /* rb_player_minScreen_btn@2x.png */; };
+		E61C3461A764760208703E896797EDA7 /* RBPlayerControlPlayOrPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB7ED10A33401ADD90FB997D43C941 /* RBPlayerControlPlayOrPauseButton.m */; };
+		F1737F03FE1A1758F5335367AC1DBFFA /* UIImage+RBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FE37451A0111855165CB0EFE2F7004 /* UIImage+RBPlayer.m */; };
+		FCC969781E230EAAD0E0EDF869CDEED1 /* RBPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F95431F55677B8D754F13C0F25B1D693 /* RBPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,97 +95,97 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033B2718E07001EC31A52DC80B23A838 /* rb_player_pause_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_pause_btn@3x.png"; sourceTree = "<group>"; };
 		05C3ABC89CE6E2BE503BE86DC5ADBFF3 /* Pods-RBPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
 		070C8A7D310AFE84404BC31D43353ACF /* Pods-RBPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		08790FDAD61812F3C88DB4A4CFB656A9 /* RBVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBVideoPlayer.m; sourceTree = "<group>"; };
-		0D3B94583B5118365CD6E5C111BAD5F9 /* RBPlayerOrientationDmonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerOrientationDmonitor.m; sourceTree = "<group>"; };
-		1CE6D3AB930EF51DBBCB505281F230E8 /* RBPlayerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerItem.m; sourceTree = "<group>"; };
-		1D0AB380891C2542B2ABA00B5845C984 /* RBPlayerSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerSlider.m; sourceTree = "<group>"; };
-		1D3027001D755BFD0072E707 /* rb_player_pause_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rb_player_pause_btn@2x.png"; sourceTree = "<group>"; };
-		1D3027031D755E640072E707 /* NSBundle+RBPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+RBPlayer.h"; path = "Categories/NSBundle+RBPlayer.h"; sourceTree = "<group>"; };
-		1D3027041D755E640072E707 /* NSBundle+RBPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+RBPlayer.m"; path = "Categories/NSBundle+RBPlayer.m"; sourceTree = "<group>"; };
-		1D3027071D755EE30072E707 /* UIImage+RBPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RBPlayer.h"; path = "Categories/UIImage+RBPlayer.h"; sourceTree = "<group>"; };
-		1D3027081D755EE30072E707 /* UIImage+RBPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RBPlayer.m"; path = "Categories/UIImage+RBPlayer.m"; sourceTree = "<group>"; };
+		0C108FC8A35EAA9A45410DA28C1174F7 /* RBPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerViewController.h; sourceTree = "<group>"; };
+		1D2C880F477DFC3FD4E770E0C0658D64 /* RBPlayerViewMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerViewMask.m; sourceTree = "<group>"; };
 		1D43228C764D8F7BE8048A946706B38E /* RBPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RBPlayer.modulemap; sourceTree = "<group>"; };
-		2506F2D62CDBE20652EDACF24D5D8674 /* RBPlayerControlPlayOrPauseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlPlayOrPauseButton.m; sourceTree = "<group>"; };
+		1E62C32DC41EF57B7EEDFD259898E539 /* rb_player_back_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_back_btn@3x.png"; sourceTree = "<group>"; };
 		2872AEFCC245FF8D402D7C290BEDB389 /* Pods-RBPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RBPlayer_Tests.modulemap"; sourceTree = "<group>"; };
-		2E11A66832BB6AA312CB5B82DE937683 /* RBPlayerChangeOrientationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerChangeOrientationOperation.h; sourceTree = "<group>"; };
-		375764047442B152DEA69418ADE317E6 /* RBVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBVideoPlayer.h; sourceTree = "<group>"; };
+		2873BFB1FBAE7E91B693BEAEF8C1D3E3 /* RBPlayerItemAssetMenuMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerItemAssetMenuMask.h; sourceTree = "<group>"; };
+		28DED2C6B64469C272B1A5F9F07E2A64 /* RBPlayerSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerSlider.m; sourceTree = "<group>"; };
+		2B468E429167CD57F5F19778C2D3BAA8 /* RBPlayerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerItem.h; sourceTree = "<group>"; };
+		2DDAB0CEB0ADF2C90E94E4EB7F615804 /* rb_player_pause_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_pause_btn@2x.png"; sourceTree = "<group>"; };
+		2F47E7E11F407C17772AD446621306F8 /* RBPlayerItemAssetMenuMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerItemAssetMenuMask.m; sourceTree = "<group>"; };
+		34E666BCB8EBF34D72BBFEFB24102DD8 /* RBPlayerLoadingMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerLoadingMask.m; sourceTree = "<group>"; };
+		398616A0398FF907351EA3589212E043 /* RBPlayerControlBackButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlBackButton.m; sourceTree = "<group>"; };
+		39C9A689F160C8F783E05856EF6515F6 /* rb_player_fullScreen_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_fullScreen_btn@2x.png"; sourceTree = "<group>"; };
+		3A1690C75ECD35638EAEF2C13B0E8E6F /* RBPlayerControlFullScreenButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlFullScreenButton.h; sourceTree = "<group>"; };
 		3A1ADB410773F9ADBD0E2927603B30F0 /* RBPlayer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBPlayer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FECDC6B48FFEE8DC50E6BEB3E458FEE /* RBPlayerControlFullScreenButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlFullScreenButton.h; sourceTree = "<group>"; };
-		4118B4080E45830CE84F4440E35867C4 /* RBPlayerTopMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerTopMask.m; sourceTree = "<group>"; };
-		44DECF88AA8F357D17C2E5E54A5DB4C1 /* RBPlayerControlButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlButton.h; sourceTree = "<group>"; };
+		3EE81722FF265942F06EBDB290D11850 /* rb_player_minScreen_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_minScreen_btn@3x.png"; sourceTree = "<group>"; };
+		4552026115AEB23101D31F01738846B6 /* RBPlayerContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerContainerView.m; sourceTree = "<group>"; };
+		463D041114AD95FF6100FE9475E5935A /* rb_player_play_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_play_btn@2x.png"; sourceTree = "<group>"; };
+		4A414E5A19D9110E02FC6A5AB1FF62E7 /* RBPlayerOrientationDmonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerOrientationDmonitor.h; sourceTree = "<group>"; };
+		4CCCAF212E7A0756D09102473F604613 /* RBPlayerControlItemAssetMenuButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlItemAssetMenuButton.h; sourceTree = "<group>"; };
+		4ECB7ED10A33401ADD90FB997D43C941 /* RBPlayerControlPlayOrPauseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlPlayOrPauseButton.m; sourceTree = "<group>"; };
 		5003ACE7DFE5833F77679C91B43AD456 /* Pods-RBPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RBPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		51DDE51CE61A050647640F1F4FA7BE16 /* RBPlayerLoadingMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerLoadingMask.h; sourceTree = "<group>"; };
-		52BA3D2223867B4A0030B9BF4BD477DA /* RBPlayerControlFullScreenButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlFullScreenButton.m; sourceTree = "<group>"; };
+		5111C25B2CCDDF0E2C0E986CC5D5700D /* RBPlayerMenuMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerMenuMask.h; sourceTree = "<group>"; };
+		52EF007AB142242369628A6E39A15563 /* RBVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBVideoPlayer.h; sourceTree = "<group>"; };
 		5476224CE4C3A206F32E8399E36F39AF /* Pods-RBPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5579B38E3AD46F9C605CB146EF0E6D2B /* RBPlayerControlBackButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlBackButton.h; sourceTree = "<group>"; };
 		55E629AA3C22A3427EA299AD86BF69BC /* Pods-RBPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		56C1BB5A3AF30B095D60EEFA3830B762 /* rb_player_fullScreen_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_fullScreen_btn@3x.png"; sourceTree = "<group>"; };
-		57393C779F07D9820680663A7806F1ED /* RBPlayerSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerSlider.h; sourceTree = "<group>"; };
-		57E4288C1F083495BB2DCBAD9979E021 /* RBPlayerChangeOrientationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerChangeOrientationOperation.m; sourceTree = "<group>"; };
+		57FC18A976229BA69E5C15B0D7B8ABB6 /* RBPlayerTopMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerTopMask.m; sourceTree = "<group>"; };
+		580B7C86C0A36DBD32F7751A2D8152C0 /* RBPlayerChangeOrientationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerChangeOrientationOperation.h; sourceTree = "<group>"; };
+		58B982465C86E7B562F3FDE987BD7E11 /* RBPlayerControlButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlButton.m; sourceTree = "<group>"; };
 		58BE95A52073E7F3AA0113511049D688 /* Pods-RBPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RBPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		591F17492D9A32F45C3FF2BEB398AEC3 /* rb_player_pause_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_pause_btn@3x.png"; sourceTree = "<group>"; };
 		59B39B6AB845151DB495E100E8E762C7 /* Pods-RBPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RBPlayer_Example-dummy.m"; sourceTree = "<group>"; };
-		610F0B76ADD54282AD09365974EB0A3F /* rb_player_play_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_play_btn@3x.png"; sourceTree = "<group>"; };
+		5B11DA72AC06318163813C8F62557FAC /* RBCorePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBCorePlayer.m; sourceTree = "<group>"; };
+		5DD636D741D8902DE8DA3524DDCD93E3 /* rb_player_play_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_play_btn@3x.png"; sourceTree = "<group>"; };
+		6118E798727BEAB9A6A0BD1D91F3C704 /* RBPlayerOrientationDmonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerOrientationDmonitor.m; sourceTree = "<group>"; };
 		63BC7BBADCD9F728945F1A4E505C6F5D /* Pods-RBPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		65B2CA9D3F69FCD0997DC4F2BADB3D58 /* RBPlayerMenuMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerMenuMask.h; sourceTree = "<group>"; };
-		70550F0370A12AE6D1681926D28B0A93 /* RBCorePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBCorePlayer.h; sourceTree = "<group>"; };
-		70A1CEC2A221E9D5C774A50D65042E49 /* RBPlayerLoadingMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerLoadingMask.m; sourceTree = "<group>"; };
-		7190FA50FDC84BC952AC78E3965EDC46 /* RBPlayerControlRateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlRateButton.h; sourceTree = "<group>"; };
+		63C445B149299C689B8A8F2776B0D7EE /* RBPlayerSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerSlider.h; sourceTree = "<group>"; };
+		658F5B89807F2C806BC3092D51B35945 /* RBPlayerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerItem.m; sourceTree = "<group>"; };
+		668DEBDAD9FC8F6D08C55728210BD901 /* RBPlayerContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerContainerView.h; sourceTree = "<group>"; };
+		698A8FD00E594268A51908E9B68547FB /* RBPlayerControlBackButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlBackButton.h; sourceTree = "<group>"; };
 		723C41B87AA4D64DE44145357EE8C1CD /* Pods-RBPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7BD4C99EF4BD3DFBEF0C5C35E5F75368 /* RBPlayerControlItemAssetMenuButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlItemAssetMenuButton.m; sourceTree = "<group>"; };
+		746365A6AB1B58F7FE35330C02F28975 /* NSBundle+RBPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+RBPlayer.h"; sourceTree = "<group>"; };
+		7ADCD1F41DFE67E9280C314387F8A5F4 /* RBPlayerLoadingMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerLoadingMask.h; sourceTree = "<group>"; };
 		7D370D2FC436477F47EA3110306797E3 /* Pods-RBPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7EA3286BC43DC6F4C1B97EC22A379D36 /* Pods_RBPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8117E2CBA5EA9395975D467205671325 /* rb_player_minScreen_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_minScreen_btn@2x.png"; sourceTree = "<group>"; };
 		818744EEC4219C2BDD2754BDA1785F0C /* RBPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8953B162BF1E5DDFA5B889A42F22C84B /* RBPlayerControlButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlButton.m; sourceTree = "<group>"; };
-		89D5ADA530D4F2F009914D5AFBD214E2 /* RBPlayerControlBackButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlBackButton.m; sourceTree = "<group>"; };
-		8B2B8E4912D63C17DCE10430140C8E2D /* rb_player_back_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_back_btn@3x.png"; sourceTree = "<group>"; };
 		8B6143A9140F38CEE3521039438AB4BE /* RBPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBPlayer-prefix.pch"; sourceTree = "<group>"; };
+		8C8D22EC2310E3A4211F448D0F8578B3 /* RBPlayerControlRateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlRateButton.h; sourceTree = "<group>"; };
 		8E65A76DC845D79DB03C81B6D2799AE2 /* Pods-RBPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBPlayer_Example-resources.sh"; sourceTree = "<group>"; };
-		8EA1FD4BB747904BFBB323E6C727E979 /* RBPlayerContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerContainerView.m; sourceTree = "<group>"; };
-		92DCDB5CF01270A7A0A19C665439BA39 /* RBPlayerItemAssetMenuMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerItemAssetMenuMask.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9685EAE5284864898EA76DA79C923A59 /* rb_player_minScreen_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_minScreen_btn@3x.png"; sourceTree = "<group>"; };
-		99BF82FC1391B1E6A3E50046FBCEFB4B /* RBPlayerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerItem.h; sourceTree = "<group>"; };
-		9BF07231598C1698B9FF6BECCBD14B93 /* RBPlayerMenuMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerMenuMask.m; sourceTree = "<group>"; };
 		9C11FA84439D37DAE50AEE90E63FF08A /* RBPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBPlayer.xcconfig; sourceTree = "<group>"; };
-		9CCFB9DB1D462C0C0633846615E36F29 /* RBPlayerViewMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerViewMask.h; sourceTree = "<group>"; };
 		9EE2D41E4A3193EFAAD21AB5B9A94F93 /* Pods-RBPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RBPlayer_Example.modulemap"; sourceTree = "<group>"; };
-		A39AFB0E4B8CAA3DAAFF60F48432B255 /* RBPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerView.m; sourceTree = "<group>"; };
-		A49C6B1E243B61956D1AD17EDC9FDA00 /* RBPlayerControlItemAssetMenuButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlItemAssetMenuButton.h; sourceTree = "<group>"; };
-		AA664CA05C5AF85998CF008DD8068262 /* RBPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerView.h; sourceTree = "<group>"; };
+		A0CB8CC928E42BE970625B50B01A3E3C /* RBPlayerBottomMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerBottomMask.m; sourceTree = "<group>"; };
+		A19CE833BC903CF347FF5531C2B5614D /* RBPlayerControlMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlMask.m; sourceTree = "<group>"; };
+		A2FE37451A0111855165CB0EFE2F7004 /* UIImage+RBPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RBPlayer.m"; sourceTree = "<group>"; };
 		AAA042C825BA0D70F189500E05FF3D6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2C8C7E30A679B7B0F9DC55C721746E0 /* RBPlayerBottomMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerBottomMask.h; sourceTree = "<group>"; };
+		AAF77F0A64588BB42BF9685BA981835E /* RBPlayerBottomMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerBottomMask.h; sourceTree = "<group>"; };
+		B0393051A66D3E063D9CF2F96E62C4B6 /* RBPlayerControlMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlMask.h; sourceTree = "<group>"; };
+		B6CD52AD1FE81111B51A1F1AD977C1A4 /* RBPlayerMenuMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerMenuMask.m; sourceTree = "<group>"; };
 		BA10979CAFD70B676C1E43E72F210FE2 /* Pods-RBPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BE685769E228E714AA3100F9E23114E9 /* RBPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerViewController.h; sourceTree = "<group>"; };
-		C0C513A647F6EC11520ECD5A573134E3 /* RBPlayerContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerContainerView.h; sourceTree = "<group>"; };
-		C6641102B25FC6647387335E332C36D1 /* RBPlayerControlMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlMask.m; sourceTree = "<group>"; };
-		C86FEF88150A5503E2B8AB254C609C35 /* RBPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerViewController.m; sourceTree = "<group>"; };
+		BE1663A617A02EB2766072339983596F /* RBPlayerControlItemAssetMenuButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlItemAssetMenuButton.m; sourceTree = "<group>"; };
+		BE1A6F3412E9C140DA5C31DA667AADE9 /* RBCorePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBCorePlayer.h; sourceTree = "<group>"; };
+		C0BBE80B2A6D718F30EC7F6EC77B9268 /* RBPlayerTopMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerTopMask.h; sourceTree = "<group>"; };
+		C22677D6F0BBF1F3B51D8A9C03BB0B08 /* UIImage+RBPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+RBPlayer.h"; sourceTree = "<group>"; };
+		C6400F2D21662E34AF4F8FD96C0B5544 /* RBPlayerViewMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerViewMask.h; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2569483837853D1925F0DEA66F50C3A /* Pods_RBPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A85195BD262385338F882C36DBB605 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D72951410967DB4219C9D3B54CCD4CD4 /* RBPlayerItemAssetMenuMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerItemAssetMenuMask.m; sourceTree = "<group>"; };
-		D92F99DF78A977D13177BE4E4F611EE1 /* rb_player_minScreen_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_minScreen_btn@2x.png"; sourceTree = "<group>"; };
-		D9C66162A9CF4AFCC0AF87E160F8AA58 /* RBPlayerOrientationDmonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerOrientationDmonitor.h; sourceTree = "<group>"; };
-		DA6B44578746F61B9318D3378C3CE339 /* rb_player_back_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_back_btn@2x.png"; sourceTree = "<group>"; };
-		DA9CAA80B12C4D25280AFED78F009539 /* RBPlayerControlRateButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlRateButton.m; sourceTree = "<group>"; };
+		DBFFE22FDDA7D771A9C70752C3D592B5 /* RBVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBVideoPlayer.m; sourceTree = "<group>"; };
 		DCB1121A11754B8902F95A3F2E3D3CAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCB78ADD971A92C039127647A39B35B3 /* rb_player_play_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_play_btn@2x.png"; sourceTree = "<group>"; };
 		DCD09257C54D6F5B4CD8275B303E7387 /* Pods-RBPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RBPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
-		E50E429C30DE86A1FB5FFE1E648C7B33 /* RBPlayerTopMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerTopMask.h; sourceTree = "<group>"; };
+		E22E982117569C1980A4029AD95BBE12 /* RBPlayerControlPlayOrPauseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlPlayOrPauseButton.h; sourceTree = "<group>"; };
 		E65E4773038BF6F32635871C563B9826 /* ResourceBundle-RBPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RBPlayer-Info.plist"; sourceTree = "<group>"; };
+		E67E7D010DF9C6676DD78ABA2959D947 /* RBPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerViewController.m; sourceTree = "<group>"; };
 		E75BF068DDEF15D6641EE77FED828857 /* Pods-RBPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8B0B91AECC3821F7C7D99BC2354D58D /* RBPlayerChangeOrientationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerChangeOrientationOperation.m; sourceTree = "<group>"; };
 		E8E34F36D18DB1BDE44C15958C5DB46E /* RBPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBPlayer-dummy.m"; sourceTree = "<group>"; };
-		E9A2DE24AB99C7413184ABE573EBB36C /* RBPlayerBottomMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerBottomMask.m; sourceTree = "<group>"; };
 		E9BC2D5A365D55478D4D2EFA12545F71 /* Pods-RBPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EA4A54B301C559FE1C66C3C5F9ED64BD /* RBPlayerControlPlayOrPauseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlPlayOrPauseButton.h; sourceTree = "<group>"; };
-		F17D191C0FEE4AA9CA9F7E5D7A7210EA /* RBPlayerViewMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerViewMask.m; sourceTree = "<group>"; };
-		F45C248DF67ED7970979D12E8A21EB34 /* RBPlayerControlMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlMask.h; sourceTree = "<group>"; };
+		EA14F3E36AC94CB38F61B2D2FC472FC1 /* RBPlayerControlRateButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlRateButton.m; sourceTree = "<group>"; };
+		F18896F60765D09D2092891139E3437C /* RBPlayerControlFullScreenButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerControlFullScreenButton.m; sourceTree = "<group>"; };
+		F29ADE55D751410DF88C1D6389A81AF4 /* rb_player_fullScreen_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_fullScreen_btn@3x.png"; sourceTree = "<group>"; };
+		F34DDD0D2C5F205E089864D99F500C37 /* NSBundle+RBPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+RBPlayer.m"; sourceTree = "<group>"; };
+		F51E126F333355087E149CA25ABCC391 /* RBPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBPlayerView.m; sourceTree = "<group>"; };
 		F54953DF626986DACFAEF1AAA67C6F91 /* Pods-RBPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F80AEB102B40F2A177849A3FB3473284 /* rb_player_fullScreen_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_fullScreen_btn@2x.png"; sourceTree = "<group>"; };
+		F66BA1416F6BDCC0BC59C526F2922BF3 /* rb_player_back_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "rb_player_back_btn@2x.png"; sourceTree = "<group>"; };
+		F95431F55677B8D754F13C0F25B1D693 /* RBPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerView.h; sourceTree = "<group>"; };
 		FC5C225554F60DC2B3EAA540FC908261 /* RBPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBPlayer-umbrella.h"; sourceTree = "<group>"; };
-		FE187C665C1BD996146B37A4A4322CDC /* RBCorePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RBCorePlayer.m; sourceTree = "<group>"; };
+		FF9C926B3E4C58258AF66A7989B3B885 /* RBPlayerControlButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBPlayerControlButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,45 +226,17 @@
 		06B4CB34E70DA347EFF0AA8ED662ED07 /* RBPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				EA958E73B726C408C119285DDD4CA0A8 /* Assets */,
+				D7E9FF151B703B6098AE7FD76287A98B /* Assets */,
 			);
 			path = RBPlayer;
-			sourceTree = "<group>";
-		};
-		0F695510B633FE3445F842330975F5A6 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				5579B38E3AD46F9C605CB146EF0E6D2B /* RBPlayerControlBackButton.h */,
-				89D5ADA530D4F2F009914D5AFBD214E2 /* RBPlayerControlBackButton.m */,
-				3FECDC6B48FFEE8DC50E6BEB3E458FEE /* RBPlayerControlFullScreenButton.h */,
-				52BA3D2223867B4A0030B9BF4BD477DA /* RBPlayerControlFullScreenButton.m */,
-				A49C6B1E243B61956D1AD17EDC9FDA00 /* RBPlayerControlItemAssetMenuButton.h */,
-				7BD4C99EF4BD3DFBEF0C5C35E5F75368 /* RBPlayerControlItemAssetMenuButton.m */,
-				EA4A54B301C559FE1C66C3C5F9ED64BD /* RBPlayerControlPlayOrPauseButton.h */,
-				2506F2D62CDBE20652EDACF24D5D8674 /* RBPlayerControlPlayOrPauseButton.m */,
-				7190FA50FDC84BC952AC78E3965EDC46 /* RBPlayerControlRateButton.h */,
-				DA9CAA80B12C4D25280AFED78F009539 /* RBPlayerControlRateButton.m */,
-			);
-			path = Buttons;
 			sourceTree = "<group>";
 		};
 		1BF6EC0B4CD590658365065B7920D804 /* RBPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				8FF123AF580B4DC1BABA2C9AA0DC6777 /* Classes */,
+				F33EE377BDE6CBD05125ED08AB4C704D /* Classes */,
 			);
 			path = RBPlayer;
-			sourceTree = "<group>";
-		};
-		1D3027021D755E2E0072E707 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				1D3027031D755E640072E707 /* NSBundle+RBPlayer.h */,
-				1D3027041D755E640072E707 /* NSBundle+RBPlayer.m */,
-				1D3027071D755EE30072E707 /* UIImage+RBPlayer.h */,
-				1D3027081D755EE30072E707 /* UIImage+RBPlayer.m */,
-			);
-			name = Categories;
 			sourceTree = "<group>";
 		};
 		1F45D9B674B34FE20F4C53DD83EE609F /* Support Files */ = {
@@ -301,30 +273,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		447B63E3AAD54E2EFB28E569C106B2E9 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				1D3027021D755E2E0072E707 /* Categories */,
-				70550F0370A12AE6D1681926D28B0A93 /* RBCorePlayer.h */,
-				FE187C665C1BD996146B37A4A4322CDC /* RBCorePlayer.m */,
-				2E11A66832BB6AA312CB5B82DE937683 /* RBPlayerChangeOrientationOperation.h */,
-				57E4288C1F083495BB2DCBAD9979E021 /* RBPlayerChangeOrientationOperation.m */,
-				C0C513A647F6EC11520ECD5A573134E3 /* RBPlayerContainerView.h */,
-				8EA1FD4BB747904BFBB323E6C727E979 /* RBPlayerContainerView.m */,
-				44DECF88AA8F357D17C2E5E54A5DB4C1 /* RBPlayerControlButton.h */,
-				8953B162BF1E5DDFA5B889A42F22C84B /* RBPlayerControlButton.m */,
-				99BF82FC1391B1E6A3E50046FBCEFB4B /* RBPlayerItem.h */,
-				1CE6D3AB930EF51DBBCB505281F230E8 /* RBPlayerItem.m */,
-				D9C66162A9CF4AFCC0AF87E160F8AA58 /* RBPlayerOrientationDmonitor.h */,
-				0D3B94583B5118365CD6E5C111BAD5F9 /* RBPlayerOrientationDmonitor.m */,
-				AA664CA05C5AF85998CF008DD8068262 /* RBPlayerView.h */,
-				A39AFB0E4B8CAA3DAAFF60F48432B255 /* RBPlayerView.m */,
-				9CCFB9DB1D462C0C0633846615E36F29 /* RBPlayerViewMask.h */,
-				F17D191C0FEE4AA9CA9F7E5D7A7210EA /* RBPlayerViewMask.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		514951D04E4A83284391E5F435BFE609 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,25 +280,6 @@
 				A6D238281B4F2631975FA856C4393D6B /* Pods-RBPlayer_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5E2092A2E7B84DDDDDC98C3CF1F2F5EA /* Masks */ = {
-			isa = PBXGroup;
-			children = (
-				B2C8C7E30A679B7B0F9DC55C721746E0 /* RBPlayerBottomMask.h */,
-				E9A2DE24AB99C7413184ABE573EBB36C /* RBPlayerBottomMask.m */,
-				F45C248DF67ED7970979D12E8A21EB34 /* RBPlayerControlMask.h */,
-				C6641102B25FC6647387335E332C36D1 /* RBPlayerControlMask.m */,
-				92DCDB5CF01270A7A0A19C665439BA39 /* RBPlayerItemAssetMenuMask.h */,
-				D72951410967DB4219C9D3B54CCD4CD4 /* RBPlayerItemAssetMenuMask.m */,
-				51DDE51CE61A050647640F1F4FA7BE16 /* RBPlayerLoadingMask.h */,
-				70A1CEC2A221E9D5C774A50D65042E49 /* RBPlayerLoadingMask.m */,
-				65B2CA9D3F69FCD0997DC4F2BADB3D58 /* RBPlayerMenuMask.h */,
-				9BF07231598C1698B9FF6BECCBD14B93 /* RBPlayerMenuMask.m */,
-				E50E429C30DE86A1FB5FFE1E648C7B33 /* RBPlayerTopMask.h */,
-				4118B4080E45830CE84F4440E35867C4 /* RBPlayerTopMask.m */,
-			);
-			path = Masks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -364,27 +293,44 @@
 			);
 			sourceTree = "<group>";
 		};
-		89F348BDB7D7A65B298AA266EEE42E22 /* UI */ = {
+		889325F250D8585E4BE042FA1404C305 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				BE685769E228E714AA3100F9E23114E9 /* RBPlayerViewController.h */,
-				C86FEF88150A5503E2B8AB254C609C35 /* RBPlayerViewController.m */,
-				375764047442B152DEA69418ADE317E6 /* RBVideoPlayer.h */,
-				08790FDAD61812F3C88DB4A4CFB656A9 /* RBVideoPlayer.m */,
-				0F695510B633FE3445F842330975F5A6 /* Buttons */,
-				5E2092A2E7B84DDDDDC98C3CF1F2F5EA /* Masks */,
-				E8487741B8AE3C209B290F6A0B9A3763 /* Views */,
+				698A8FD00E594268A51908E9B68547FB /* RBPlayerControlBackButton.h */,
+				398616A0398FF907351EA3589212E043 /* RBPlayerControlBackButton.m */,
+				3A1690C75ECD35638EAEF2C13B0E8E6F /* RBPlayerControlFullScreenButton.h */,
+				F18896F60765D09D2092891139E3437C /* RBPlayerControlFullScreenButton.m */,
+				4CCCAF212E7A0756D09102473F604613 /* RBPlayerControlItemAssetMenuButton.h */,
+				BE1663A617A02EB2766072339983596F /* RBPlayerControlItemAssetMenuButton.m */,
+				E22E982117569C1980A4029AD95BBE12 /* RBPlayerControlPlayOrPauseButton.h */,
+				4ECB7ED10A33401ADD90FB997D43C941 /* RBPlayerControlPlayOrPauseButton.m */,
+				8C8D22EC2310E3A4211F448D0F8578B3 /* RBPlayerControlRateButton.h */,
+				EA14F3E36AC94CB38F61B2D2FC472FC1 /* RBPlayerControlRateButton.m */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		994B0D416F977A8A7BBCF1B5CB8E9135 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0C108FC8A35EAA9A45410DA28C1174F7 /* RBPlayerViewController.h */,
+				E67E7D010DF9C6676DD78ABA2959D947 /* RBPlayerViewController.m */,
+				52EF007AB142242369628A6E39A15563 /* RBVideoPlayer.h */,
+				DBFFE22FDDA7D771A9C70752C3D592B5 /* RBVideoPlayer.m */,
+				889325F250D8585E4BE042FA1404C305 /* Buttons */,
+				FD19A1B204D26F0528FAB077625C1BA2 /* Masks */,
+				9C7A02CBC53B3A3CD82A824375EEF5F7 /* Views */,
 			);
 			path = UI;
 			sourceTree = "<group>";
 		};
-		8FF123AF580B4DC1BABA2C9AA0DC6777 /* Classes */ = {
+		9C7A02CBC53B3A3CD82A824375EEF5F7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				447B63E3AAD54E2EFB28E569C106B2E9 /* Core */,
-				89F348BDB7D7A65B298AA266EEE42E22 /* UI */,
+				63C445B149299C689B8A8F2776B0D7EE /* RBPlayerSlider.h */,
+				28DED2C6B64469C272B1A5F9F07E2A64 /* RBPlayerSlider.m */,
 			);
-			path = Classes;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A1F5D2C8AC3444756CA218800CC2D9B5 /* Resources */ = {
@@ -440,30 +386,65 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E8487741B8AE3C209B290F6A0B9A3763 /* Views */ = {
+		C9B9D51EEFB4FD0786665EEC24BE68B4 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				57393C779F07D9820680663A7806F1ED /* RBPlayerSlider.h */,
-				1D0AB380891C2542B2ABA00B5845C984 /* RBPlayerSlider.m */,
+				746365A6AB1B58F7FE35330C02F28975 /* NSBundle+RBPlayer.h */,
+				F34DDD0D2C5F205E089864D99F500C37 /* NSBundle+RBPlayer.m */,
+				C22677D6F0BBF1F3B51D8A9C03BB0B08 /* UIImage+RBPlayer.h */,
+				A2FE37451A0111855165CB0EFE2F7004 /* UIImage+RBPlayer.m */,
 			);
-			path = Views;
+			path = Categories;
 			sourceTree = "<group>";
 		};
-		EA958E73B726C408C119285DDD4CA0A8 /* Assets */ = {
+		D7E9FF151B703B6098AE7FD76287A98B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				DA6B44578746F61B9318D3378C3CE339 /* rb_player_back_btn@2x.png */,
-				8B2B8E4912D63C17DCE10430140C8E2D /* rb_player_back_btn@3x.png */,
-				F80AEB102B40F2A177849A3FB3473284 /* rb_player_fullScreen_btn@2x.png */,
-				56C1BB5A3AF30B095D60EEFA3830B762 /* rb_player_fullScreen_btn@3x.png */,
-				D92F99DF78A977D13177BE4E4F611EE1 /* rb_player_minScreen_btn@2x.png */,
-				9685EAE5284864898EA76DA79C923A59 /* rb_player_minScreen_btn@3x.png */,
-				1D3027001D755BFD0072E707 /* rb_player_pause_btn@2x.png */,
-				033B2718E07001EC31A52DC80B23A838 /* rb_player_pause_btn@3x.png */,
-				DCB78ADD971A92C039127647A39B35B3 /* rb_player_play_btn@2x.png */,
-				610F0B76ADD54282AD09365974EB0A3F /* rb_player_play_btn@3x.png */,
+				F66BA1416F6BDCC0BC59C526F2922BF3 /* rb_player_back_btn@2x.png */,
+				1E62C32DC41EF57B7EEDFD259898E539 /* rb_player_back_btn@3x.png */,
+				39C9A689F160C8F783E05856EF6515F6 /* rb_player_fullScreen_btn@2x.png */,
+				F29ADE55D751410DF88C1D6389A81AF4 /* rb_player_fullScreen_btn@3x.png */,
+				8117E2CBA5EA9395975D467205671325 /* rb_player_minScreen_btn@2x.png */,
+				3EE81722FF265942F06EBDB290D11850 /* rb_player_minScreen_btn@3x.png */,
+				2DDAB0CEB0ADF2C90E94E4EB7F615804 /* rb_player_pause_btn@2x.png */,
+				591F17492D9A32F45C3FF2BEB398AEC3 /* rb_player_pause_btn@3x.png */,
+				463D041114AD95FF6100FE9475E5935A /* rb_player_play_btn@2x.png */,
+				5DD636D741D8902DE8DA3524DDCD93E3 /* rb_player_play_btn@3x.png */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		EF29C8480B8F3D2F27CE75EC7E09153E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A6F3412E9C140DA5C31DA667AADE9 /* RBCorePlayer.h */,
+				5B11DA72AC06318163813C8F62557FAC /* RBCorePlayer.m */,
+				580B7C86C0A36DBD32F7751A2D8152C0 /* RBPlayerChangeOrientationOperation.h */,
+				E8B0B91AECC3821F7C7D99BC2354D58D /* RBPlayerChangeOrientationOperation.m */,
+				668DEBDAD9FC8F6D08C55728210BD901 /* RBPlayerContainerView.h */,
+				4552026115AEB23101D31F01738846B6 /* RBPlayerContainerView.m */,
+				FF9C926B3E4C58258AF66A7989B3B885 /* RBPlayerControlButton.h */,
+				58B982465C86E7B562F3FDE987BD7E11 /* RBPlayerControlButton.m */,
+				2B468E429167CD57F5F19778C2D3BAA8 /* RBPlayerItem.h */,
+				658F5B89807F2C806BC3092D51B35945 /* RBPlayerItem.m */,
+				4A414E5A19D9110E02FC6A5AB1FF62E7 /* RBPlayerOrientationDmonitor.h */,
+				6118E798727BEAB9A6A0BD1D91F3C704 /* RBPlayerOrientationDmonitor.m */,
+				F95431F55677B8D754F13C0F25B1D693 /* RBPlayerView.h */,
+				F51E126F333355087E149CA25ABCC391 /* RBPlayerView.m */,
+				C6400F2D21662E34AF4F8FD96C0B5544 /* RBPlayerViewMask.h */,
+				1D2C880F477DFC3FD4E770E0C0658D64 /* RBPlayerViewMask.m */,
+				C9B9D51EEFB4FD0786665EEC24BE68B4 /* Categories */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F33EE377BDE6CBD05125ED08AB4C704D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF29C8480B8F3D2F27CE75EC7E09153E /* Core */,
+				994B0D416F977A8A7BBCF1B5CB8E9135 /* UI */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F385F28808C1F662E65943017B2288D8 /* Pods-RBPlayer_Example */ = {
@@ -484,41 +465,28 @@
 			path = "Target Support Files/Pods-RBPlayer_Example";
 			sourceTree = "<group>";
 		};
+		FD19A1B204D26F0528FAB077625C1BA2 /* Masks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF77F0A64588BB42BF9685BA981835E /* RBPlayerBottomMask.h */,
+				A0CB8CC928E42BE970625B50B01A3E3C /* RBPlayerBottomMask.m */,
+				B0393051A66D3E063D9CF2F96E62C4B6 /* RBPlayerControlMask.h */,
+				A19CE833BC903CF347FF5531C2B5614D /* RBPlayerControlMask.m */,
+				2873BFB1FBAE7E91B693BEAEF8C1D3E3 /* RBPlayerItemAssetMenuMask.h */,
+				2F47E7E11F407C17772AD446621306F8 /* RBPlayerItemAssetMenuMask.m */,
+				7ADCD1F41DFE67E9280C314387F8A5F4 /* RBPlayerLoadingMask.h */,
+				34E666BCB8EBF34D72BBFEFB24102DD8 /* RBPlayerLoadingMask.m */,
+				5111C25B2CCDDF0E2C0E986CC5D5700D /* RBPlayerMenuMask.h */,
+				B6CD52AD1FE81111B51A1F1AD977C1A4 /* RBPlayerMenuMask.m */,
+				C0BBE80B2A6D718F30EC7F6EC77B9268 /* RBPlayerTopMask.h */,
+				57FC18A976229BA69E5C15B0D7B8ABB6 /* RBPlayerTopMask.m */,
+			);
+			path = Masks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		78791350856870FC0F675102FA45A3C9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECB679416E0E7CEC98F1EF4525A362F7 /* RBCorePlayer.h in Headers */,
-				06F793FC1DACF6A7D3733B5BFC3902F8 /* RBPlayer-umbrella.h in Headers */,
-				3B29C42A69E70CAAB48503403C65592D /* RBPlayerBottomMask.h in Headers */,
-				99A9CC90D78E167537E9A963F9F56FD9 /* RBPlayerChangeOrientationOperation.h in Headers */,
-				1F1620D65E662BDFC2C2AD3C76AB1A33 /* RBPlayerContainerView.h in Headers */,
-				18C64255955A3E97191CBA9DDB719547 /* RBPlayerControlButton.h in Headers */,
-				D92131B27B17F77BBE28F3E83C43480C /* RBPlayerControlBackButton.h in Headers */,
-				6983E7982FE91BE8EBE9DA9309497A61 /* RBPlayerControlFullScreenButton.h in Headers */,
-				F062F3FC171E41CA87AE27BAEB23A540 /* RBPlayerControlItemAssetMenuButton.h in Headers */,
-				8CDE6BFF1D4EE8B6FF1B84085D63FA55 /* RBPlayerControlMask.h in Headers */,
-				977BE68E3217A19DB33E2AEE0D338FA6 /* RBPlayerControlPlayOrPauseButton.h in Headers */,
-				2461255C3B0D0B15C67DA283D2146289 /* RBPlayerControlRateButton.h in Headers */,
-				6A2CCD5AA00CBD4BD3EAE717E713FFD4 /* RBPlayerItem.h in Headers */,
-				54CC9248C73217BF05D5DD4136379B02 /* RBPlayerItemAssetMenuMask.h in Headers */,
-				F635F75A0E9D61228608AB056512F3AA /* RBPlayerLoadingMask.h in Headers */,
-				CE1275C8770872A0FA371A192349890D /* RBPlayerMenuMask.h in Headers */,
-				CF45CB2E9E4D6A6D75B361C1A4807961 /* RBPlayerOrientationDmonitor.h in Headers */,
-				B55F0AEE1FBE5DEB855DDF4727EA6501 /* RBPlayerSlider.h in Headers */,
-				156AFBAC7C6BC003DCF28A9486AB0EFA /* RBPlayerTopMask.h in Headers */,
-				8A296220F436C9D66B66455511A9777B /* RBPlayerView.h in Headers */,
-				94597CC1AA111607BCE776EC181CA358 /* RBPlayerViewController.h in Headers */,
-				1D3027091D755EE30072E707 /* UIImage+RBPlayer.h in Headers */,
-				C5E2EA0819DB83CC90AD49EAAA466393 /* RBPlayerViewMask.h in Headers */,
-				1D3027051D755E640072E707 /* NSBundle+RBPlayer.h in Headers */,
-				478319A4C1D2A904F5B8FED09450D197 /* RBVideoPlayer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9721DC357783D0F9711C35032D7DCFAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -532,6 +500,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C291B93921E878C68E2CD8E509C8EF /* Pods-RBPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B423667793653D314E47F91978979A7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62005EE8FB46E98A347FFF8003028B49 /* NSBundle+RBPlayer.h in Headers */,
+				AEAC0F8E2E0CA5C7687C53FBC1C4DE76 /* RBCorePlayer.h in Headers */,
+				A67B3018F6A16D212ADB5A7D6DE9E83A /* RBPlayer-umbrella.h in Headers */,
+				71CC8902BC23577E3E0C8EFED83DD54A /* RBPlayerBottomMask.h in Headers */,
+				D9BEB227A9F9F86D3A050E3A8FF1908D /* RBPlayerChangeOrientationOperation.h in Headers */,
+				380255018B9AE6EDE06C8ACCC3D75B82 /* RBPlayerContainerView.h in Headers */,
+				793359C7C4238CF79E6157858D0EAF92 /* RBPlayerControlBackButton.h in Headers */,
+				B21DE6F1EA76947BECE93CB7AD77A486 /* RBPlayerControlButton.h in Headers */,
+				991832388ABDE0165656E14DF2203334 /* RBPlayerControlFullScreenButton.h in Headers */,
+				26865CF629AA7DFBF488307F7AF68924 /* RBPlayerControlItemAssetMenuButton.h in Headers */,
+				D4B242D2FFC5F64522F60871BDABE49F /* RBPlayerControlMask.h in Headers */,
+				CB26920F3158184CF5AB08551993B208 /* RBPlayerControlPlayOrPauseButton.h in Headers */,
+				7FCFC517DB0419F4601A06EE72C14879 /* RBPlayerControlRateButton.h in Headers */,
+				A0CF01A914F918E8CF6DF5600AA1455A /* RBPlayerItem.h in Headers */,
+				C651E1559F8D82DCBC3CD7CBA14CE839 /* RBPlayerItemAssetMenuMask.h in Headers */,
+				693D476A9F683F92FF2ED3ECF7132CD1 /* RBPlayerLoadingMask.h in Headers */,
+				A48D645F36CDFE69800AA54F049C3B70 /* RBPlayerMenuMask.h in Headers */,
+				4B2EDD37808374EDFD78325D1C92ACB5 /* RBPlayerOrientationDmonitor.h in Headers */,
+				1E9C929300C2D3543E81306C7E5A5879 /* RBPlayerSlider.h in Headers */,
+				0EE99502D75CB0703B010BB43C39978A /* RBPlayerTopMask.h in Headers */,
+				FCC969781E230EAAD0E0EDF869CDEED1 /* RBPlayerView.h in Headers */,
+				8688C873DAE9313FD81EE68B9CD4AA4B /* RBPlayerViewController.h in Headers */,
+				449979EE6A71FE2F8FACE893D77244A2 /* RBPlayerViewMask.h in Headers */,
+				D444BBE003B5DE950A553489A29B3A77 /* RBVideoPlayer.h in Headers */,
+				9A0BD504CA88CE022E1F45EE93B36498 /* UIImage+RBPlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,10 +577,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 035641F0E214C12627EDAF61905E97D9 /* Build configuration list for PBXNativeTarget "RBPlayer" */;
 			buildPhases = (
-				777CE8695FB4D84EC6CD4030F01DBB2C /* Sources */,
+				364D49B0083329BECBF2ED9435573271 /* Sources */,
 				103E295073ABBFB6CA6B3DF676D71AC0 /* Frameworks */,
 				116C3C65F8A865B082F3B6C65F62D4B7 /* Resources */,
-				78791350856870FC0F675102FA45A3C9 /* Headers */,
+				B423667793653D314E47F91978979A7B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -598,7 +598,7 @@
 			buildPhases = (
 				D44942B7BFAF391981E593DEB388FEEE /* Sources */,
 				2C1903F66894BFACC3406D4C7B299FF8 /* Frameworks */,
-				40A35F65C6AC30034C8FC5504CF2D851 /* Resources */,
+				C6412051337C5583C69328076AC60BBC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -644,23 +644,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A9296D28FE49430EE085D28CF0E594 /* RBPlayer.bundle in Resources */,
-				1D3027011D755BFD0072E707 /* rb_player_pause_btn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40A35F65C6AC30034C8FC5504CF2D851 /* Resources */ = {
+		C6412051337C5583C69328076AC60BBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDED2FB3725609D2B17AA059602393A /* rb_player_back_btn@2x.png in Resources */,
-				E295757FBB5993207C64B1A09DB9927E /* rb_player_back_btn@3x.png in Resources */,
-				ABBA841D243593EA9CD09A897195FE87 /* rb_player_fullScreen_btn@2x.png in Resources */,
-				91858FC1BAB81A4CEFE7A06B8D6B65D8 /* rb_player_fullScreen_btn@3x.png in Resources */,
-				E0DA2E283FF5E509E93FD7EB5B5E7315 /* rb_player_minScreen_btn@3x.png in Resources */,
-				66B4BE0690FA574B640D6F606EE4C8FB /* rb_player_pause_btn@3x.png in Resources */,
-				0CEE7ED58B57A1B571FA66342B778E5B /* rb_player_play_btn@2x.png in Resources */,
-				20251C3ABB50FEE051A838E7ACFDEBF8 /* rb_player_play_btn@3x.png in Resources */,
-				FD61E24AED01A5AB1A132CC5AEEEC718 /* rb_player_minScreen_btn@2x.png in Resources */,
+				AA0A49FA68FBE7E7D527E3AE1656BA01 /* rb_player_back_btn@2x.png in Resources */,
+				51AA5BAED5971A458F3360187AC745CB /* rb_player_back_btn@3x.png in Resources */,
+				74B748C215E13804484E31BC37FA19A4 /* rb_player_fullScreen_btn@2x.png in Resources */,
+				49671E8631DB5DAC8AF1863CDC29D4AD /* rb_player_fullScreen_btn@3x.png in Resources */,
+				6D8B6FC0E7506CCD1E81FDC846D0D8F5 /* rb_player_minScreen_btn@2x.png in Resources */,
+				124D808EF80FE8C3FCE81BE5F4AED27F /* rb_player_minScreen_btn@3x.png in Resources */,
+				0EE67D0136F4D3D14D334762A43913ED /* rb_player_pause_btn@2x.png in Resources */,
+				E02F848F40EC4E7D9D18EDBFDA975584 /* rb_player_pause_btn@3x.png in Resources */,
+				1B9EFF3F2D31DBA4203D579C0E3B59D3 /* rb_player_play_btn@2x.png in Resources */,
+				5979FBA4665B33D71BDA131016F19C0A /* rb_player_play_btn@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,35 +675,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		777CE8695FB4D84EC6CD4030F01DBB2C /* Sources */ = {
+		364D49B0083329BECBF2ED9435573271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236526B53EC1573B592E2313DFA3846F /* RBCorePlayer.m in Sources */,
-				E3E847B77EB5A26E1E0BAE4B1B36A2AE /* RBPlayer-dummy.m in Sources */,
-				1ADCA04BA354EA46F2B710134EFDCC93 /* RBPlayerBottomMask.m in Sources */,
-				85A40CB740A7FA0876D7DF35D6F0C835 /* RBPlayerChangeOrientationOperation.m in Sources */,
-				8E9B37D6DB3FE518C9DC38CBBF861579 /* RBPlayerContainerView.m in Sources */,
-				133FA28A66824E242FE15AA8250859A3 /* RBPlayerControlButton.m in Sources */,
-				B7403647241A9B7DE3EA86E6A04BE0EB /* RBPlayerControlBackButton.m in Sources */,
-				30853BA391285F877800B52CEBFD7558 /* RBPlayerControlFullScreenButton.m in Sources */,
-				F7BF568B95B28A31DD2293F9CF0FC53B /* RBPlayerControlItemAssetMenuButton.m in Sources */,
-				3D78B3BAAD06D16CA4A1B4409C8214E3 /* RBPlayerControlMask.m in Sources */,
-				95E354E9A3B75A364E6CE9913E924E05 /* RBPlayerControlPlayOrPauseButton.m in Sources */,
-				7AFC97920D1D67B14E24C4AA1A34DF23 /* RBPlayerControlRateButton.m in Sources */,
-				6C1B1F64BEAF7963F62FC079C2E88B33 /* RBPlayerItem.m in Sources */,
-				9A4AE8E10DB47FAB50C1212345DA0BFE /* RBPlayerItemAssetMenuMask.m in Sources */,
-				EAB2CADBF92EFAC99E7C3827D1EAEB0C /* RBPlayerLoadingMask.m in Sources */,
-				1D3027061D755E640072E707 /* NSBundle+RBPlayer.m in Sources */,
-				94F61FC015930C00BCC9E5F3805387B5 /* RBPlayerMenuMask.m in Sources */,
-				EA74D4B6B9917847B643F9F5FB6D4283 /* RBPlayerOrientationDmonitor.m in Sources */,
-				C93FEB9DE76690F7C3A198406947D489 /* RBPlayerSlider.m in Sources */,
-				1D30270A1D755EE30072E707 /* UIImage+RBPlayer.m in Sources */,
-				4318AA065918130CEF1DD7F398AD0B49 /* RBPlayerTopMask.m in Sources */,
-				2F5B8A95935D0D03C3EE1E25785BE238 /* RBPlayerView.m in Sources */,
-				2C0152D8AD8114D8840CF46F9CED88B5 /* RBPlayerViewController.m in Sources */,
-				3B82B8A40E98E08BCE39F4A8E3149D02 /* RBPlayerViewMask.m in Sources */,
-				AEEE84B7F7A00AAA7B7CDD4F4C2DA551 /* RBVideoPlayer.m in Sources */,
+				A3065826C89847159D0C72E10DCC5039 /* NSBundle+RBPlayer.m in Sources */,
+				B655EEE5192AD40AEDC68B689EC4210E /* RBCorePlayer.m in Sources */,
+				54EDC5F6BE7EEF454F9CEBF6F651FD78 /* RBPlayer-dummy.m in Sources */,
+				2DF5BCCB29EC3A6E955314CD49C496F1 /* RBPlayerBottomMask.m in Sources */,
+				B7FE5CF944D90519F196694DB8A85110 /* RBPlayerChangeOrientationOperation.m in Sources */,
+				D14D0D58B6DFD209DCFDC44C2F8A045A /* RBPlayerContainerView.m in Sources */,
+				8903EC777F39915BD001D2ECED89340C /* RBPlayerControlBackButton.m in Sources */,
+				2A53DB760BC163503B9A127C439CF2B8 /* RBPlayerControlButton.m in Sources */,
+				78C7D8F2DAC14F79D4B663F40C7EA9F6 /* RBPlayerControlFullScreenButton.m in Sources */,
+				7C09F83D1826CEFB414AC910DAB15703 /* RBPlayerControlItemAssetMenuButton.m in Sources */,
+				3313BF62D8C12C74E3E2EFFDD5CB836B /* RBPlayerControlMask.m in Sources */,
+				E61C3461A764760208703E896797EDA7 /* RBPlayerControlPlayOrPauseButton.m in Sources */,
+				1D97DFF2E2C88E1C70EBCBF94F4595B9 /* RBPlayerControlRateButton.m in Sources */,
+				A083F16713DBA74F449E1D31E9800A02 /* RBPlayerItem.m in Sources */,
+				A1E25D9AC62072D744A3E63AC6F2A5AA /* RBPlayerItemAssetMenuMask.m in Sources */,
+				A5DA63E0D1808742C6AFEC126B6D6837 /* RBPlayerLoadingMask.m in Sources */,
+				88F5F00087328A9F9239AB2E841E3678 /* RBPlayerMenuMask.m in Sources */,
+				287EAA9A93F138223927B6EE8E864186 /* RBPlayerOrientationDmonitor.m in Sources */,
+				B6D655639F73CFC6A9286AA0CA441741 /* RBPlayerSlider.m in Sources */,
+				5688E6EF445D3D9AD902A64182513366 /* RBPlayerTopMask.m in Sources */,
+				9CE5C44B886F4EA8D6CA865FFAEA9EA7 /* RBPlayerView.m in Sources */,
+				E0FAA269D0B3FEFB9A432251A5260584 /* RBPlayerViewController.m in Sources */,
+				2C1BCAE48C391EE5661DACE0F662F2AB /* RBPlayerViewMask.m in Sources */,
+				9481BF2949BD0ED3AAA57D9D14D98BE0 /* RBVideoPlayer.m in Sources */,
+				F1737F03FE1A1758F5335367AC1DBFFA /* UIImage+RBPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,7 +756,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RBPlayer/RBPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RBPlayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RBPlayer/RBPlayer.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -769,40 +769,7 @@
 			};
 			name = Release;
 		};
-		1F3ABAC6FB893D256C3069269506B126 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9BC2D5A365D55478D4D2EFA12545F71 /* Pods-RBPlayer_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RBPlayer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RBPlayer_Tests/Pods-RBPlayer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RBPlayer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -837,7 +804,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -860,7 +827,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RBPlayer/RBPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RBPlayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RBPlayer/RBPlayer.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -873,7 +840,57 @@
 			};
 			name = Debug;
 		};
-		7D6671AB7E3510B2BA3FCBD54C1BE8CE /* Debug */ = {
+		89F87448CF9B307BF7243FDEB34ED74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9BC2D5A365D55478D4D2EFA12545F71 /* Pods-RBPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RBPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RBPlayer_Tests/Pods-RBPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RBPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F2FFCFD3615432E718945AA5D0C34A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C11FA84439D37DAE50AEE90E63FF08A /* RBPlayer.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RBPlayer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RBPlayer/ResourceBundle-RBPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RBPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B6C19D7509D612361A37DE63B022DADD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 723C41B87AA4D64DE44145357EE8C1CD /* Pods-RBPlayer_Example.debug.xcconfig */;
 			buildSettings = {
@@ -906,112 +923,7 @@
 			};
 			name = Debug;
 		};
-		8F2FFCFD3615432E718945AA5D0C34A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C11FA84439D37DAE50AEE90E63FF08A /* RBPlayer.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RBPlayer";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/RBPlayer/ResourceBundle-RBPlayer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = RBPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C3E1F9DA2D035669F0B873501C3F5382 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 070C8A7D310AFE84404BC31D43353ACF /* Pods-RBPlayer_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RBPlayer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RBPlayer_Tests/Pods-RBPlayer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RBPlayer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D0F853E67DFBB53CEA6D61ABB1274FB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C11FA84439D37DAE50AEE90E63FF08A /* RBPlayer.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RBPlayer";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/RBPlayer/ResourceBundle-RBPlayer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = RBPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DFC860A17F2D7C212C60F87D69CD8F2B /* Release */ = {
+		B91656CDD81158853C1EF9A3B9808C92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63BC7BBADCD9F728945F1A4E505C6F5D /* Pods-RBPlayer_Example.release.xcconfig */;
 			buildSettings = {
@@ -1044,6 +956,94 @@
 			};
 			name = Release;
 		};
+		D0F853E67DFBB53CEA6D61ABB1274FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C11FA84439D37DAE50AEE90E63FF08A /* RBPlayer.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RBPlayer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RBPlayer/ResourceBundle-RBPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RBPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E42EC0A64AF04E7B1DD7EA8009C6DE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070C8A7D310AFE84404BC31D43353ACF /* Pods-RBPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RBPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RBPlayer_Tests/Pods-RBPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RBPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1059,8 +1059,8 @@
 		12C3128D4D1D05FAF94A71143DC34588 /* Build configuration list for PBXNativeTarget "Pods-RBPlayer_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E1F9DA2D035669F0B873501C3F5382 /* Debug */,
-				1F3ABAC6FB893D256C3069269506B126 /* Release */,
+				E42EC0A64AF04E7B1DD7EA8009C6DE38 /* Debug */,
+				89F87448CF9B307BF7243FDEB34ED74A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1068,8 +1068,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47BEF9D903506B003EA5C2B249729489 /* Debug */,
-				AAF678CED40D3499169D10F63CA0719E /* Release */,
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1077,8 +1077,8 @@
 		7C5E370127A9D09462B1A03B5EC1B7EC /* Build configuration list for PBXNativeTarget "Pods-RBPlayer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D6671AB7E3510B2BA3FCBD54C1BE8CE /* Debug */,
-				DFC860A17F2D7C212C60F87D69CD8F2B /* Release */,
+				B6C19D7509D612361A37DE63B022DADD /* Debug */,
+				B91656CDD81158853C1EF9A3B9808C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
