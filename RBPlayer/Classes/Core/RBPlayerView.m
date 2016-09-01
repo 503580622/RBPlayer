@@ -193,6 +193,11 @@ NSString *const RBPlayerViewWillChangeFromOrientationKey = @"RBPlayerViewWillCha
         CGRect containerViewFrame = CGRectZero;
         if (isChangeFullScreen) {
             
+            if ([weakSelf.currentPlayer.fullScreenContainerView.superview isEqual:keyWindow]) {
+                CGRect windowBounds = keyWindow.bounds;
+                weakSelf.currentPlayer.fullScreenContainerView.frame = windowBounds;
+            }
+            
             if (!isOriginalFullScreen) {
                 
                 if (weakSelf.currentPlayer.fullScreenContainerView.superview == nil) {
@@ -203,9 +208,6 @@ NSString *const RBPlayerViewWillChangeFromOrientationKey = @"RBPlayerViewWillCha
                 weakSelf.containerView.frame = [weakSelf.currentPlayer.fullScreenContainerView convertRect:weakSelf.frame fromView:weakSelf.superview];
                 [weakSelf.currentPlayer.fullScreenContainerView addSubview:weakSelf.containerView];
             }
-            
-            CGRect windowBounds = keyWindow.bounds;
-            weakSelf.currentPlayer.fullScreenContainerView.frame = windowBounds;
             
             containerViewFrame = weakSelf.currentPlayer.fullScreenContainerView.bounds;
         } else {
