@@ -3,3 +3,5 @@ xcode_workspace: Example/RBPlayer.xcworkspace
 xcode_scheme: RBPlayer-Example
 osx_image: xcode7.3
 podfile: Example/Podfile
+script:
+  - xcodebuild [DEFAULT_OPTIONS] CODE_SIGNING_REQUIRED=NO
