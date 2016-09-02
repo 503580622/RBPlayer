@@ -1,8 +1,8 @@
 # RBPlayer
 
 [![Build Status](https://travis-ci.org/itribs/RBPlayer.svg?branch=master)](https://travis-ci.org/itribs/RBPlayer)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/RBPlayer.svg)](https://img.shields.io/cocoapods/v/RBPlayer.svg)
-[![Platform](https://img.shields.io/cocoapods/v/RBPlayer.svg?style=flat)](http://cocoadocs.org/docsets/RBPlayer)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/RBPlayer.svg?style=flat)](https://img.shields.io/cocoapods/v/RBPlayer.svg)
+[![Platform](https://img.shields.io/cocoapods/p/RBPlayer.svg?style=flat)](http://cocoadocs.org/docsets/RBPlayer)
 
 ![RBPlayer](https://raw.githubusercontent.com/itribs/RBPlayer/master/video_player_running_man.jpg)
 
