@@ -26,7 +26,7 @@ RBPlayer is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "RBPlayer", "~> 0.1.3"
+pod "RBPlayer", "~> 0.1.4"
 ```
 
 ## Getting Start
