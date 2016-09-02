@@ -321,7 +321,7 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
     if (_state == state) return;
     if (_state == RBPlayerStateInit && state != RBPlayerStatePrepared) return;
     
-    switch (_state) {
+    switch (state) {
         case RBPlayerStatePlaying: {
             if ([self.delegate respondsToSelector:@selector(willResumeInPlayer:)]) {
                 if (![self.delegate willResumeInPlayer:self]) {
