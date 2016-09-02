@@ -12,7 +12,8 @@
 @implementation NSBundle (RBPlayer)
 
 + (NSBundle *)rbp_bundle {
-    return [self bundleWithURL:[self rbp_bundleURL]];
+    NSURL *bundle = [self rbp_bundleURL];
+    return bundle == nil ? [NSBundle mainBundle] : [self bundleWithURL:[self rbp_bundleURL]];
 }
 
 + (NSURL *)rbp_bundleURL {
