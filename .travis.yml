@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: Example/RBPlayer.xcodeproj
-xcode_scheme: RBPlayer_Example
+xcode_scheme: RBPlayer
 osx_image: xcode7.3
