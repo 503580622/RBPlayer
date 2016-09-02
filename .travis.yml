@@ -11,7 +11,6 @@ before_install:
     - pod --version
     - pod setup --silent > /dev/null
     - pod repo update --silent
-    - pod update --silent
     
 script:
     - pod lib lint --allow-warnings
