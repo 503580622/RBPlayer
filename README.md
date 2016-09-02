@@ -1,5 +1,7 @@
 # RBPlayer
 
+[![Build Status](https://travis-ci.org/itribs/RBPlayer.svg)](https://travis-ci.org/itribs/RBPlayer)
+
 ![RBPlayer](https://raw.githubusercontent.com/itribs/RBPlayer/master/video_player_running_man.jpg)
 
 Some of the  advance features are:
