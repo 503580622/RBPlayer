@@ -10,7 +10,6 @@
 		1D8C94961D6AC74F0001C05B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8C94951D6AC74F0001C05B /* Launch Screen.storyboard */; };
 		1DE9F8EB1D78150500EA3812 /* RBMinPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9F8EA1D78150500EA3812 /* RBMinPlayerViewController.xib */; };
 		1DF2A8B81D6BF4FE000F77D6 /* RBMinPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF2A8B71D6BF4FE000F77D6 /* RBMinPlayerViewController.m */; };
-		3E431BAE9015E89AF0BA7B28 /* Pods_RBPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CB34851F24EF1B29097713 /* Pods_RBPlayer_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -25,7 +24,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FE25480AF9E5815FD3854423 /* Pods_RBPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26F3AEFA139DAADB9613EAB /* Pods_RBPlayer_Tests.framework */; };
+		EEBBF807484818ACC151BE38 /* libPods-RBPlayer_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 862C51EE3DF4BFAF1C355FBB /* libPods-RBPlayer_Example.a */; };
+		FB3688C794F181A65BC0CEEE /* libPods-RBPlayer_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CE480971008CDB1BC37AC1 /* libPods-RBPlayer_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,6 @@
 		1DF2A8B61D6BF4FE000F77D6 /* RBMinPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBMinPlayerViewController.h; sourceTree = "<group>"; };
 		1DF2A8B71D6BF4FE000F77D6 /* RBMinPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMinPlayerViewController.m; sourceTree = "<group>"; };
 		249C582E927D93E5ADE2AD2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		31CB34851F24EF1B29097713 /* Pods_RBPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADFE507AF96E1B2788DA911 /* Pods-RBPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBPlayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBPlayer_Example/Pods-RBPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RBPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,10 +66,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		862C51EE3DF4BFAF1C355FBB /* libPods-RBPlayer_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RBPlayer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		91CE480971008CDB1BC37AC1 /* libPods-RBPlayer_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RBPlayer_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60CFB578C1399C0E9E3F5DA /* Pods-RBPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBPlayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBPlayer_Tests/Pods-RBPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA101A648994885DEC9C5C2B /* Pods-RBPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBPlayer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBPlayer_Example/Pods-RBPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F26F3AEFA139DAADB9613EAB /* Pods_RBPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB1A433426996EAFDADDBF4 /* RBPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RBPlayer.podspec; path = ../RBPlayer.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +82,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3E431BAE9015E89AF0BA7B28 /* Pods_RBPlayer_Example.framework in Frameworks */,
+				EEBBF807484818ACC151BE38 /* libPods-RBPlayer_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FE25480AF9E5815FD3854423 /* Pods_RBPlayer_Tests.framework in Frameworks */,
+				FB3688C794F181A65BC0CEEE /* libPods-RBPlayer_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,8 +128,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				31CB34851F24EF1B29097713 /* Pods_RBPlayer_Example.framework */,
-				F26F3AEFA139DAADB9613EAB /* Pods_RBPlayer_Tests.framework */,
+				862C51EE3DF4BFAF1C355FBB /* libPods-RBPlayer_Example.a */,
+				91CE480971008CDB1BC37AC1 /* libPods-RBPlayer_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

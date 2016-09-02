@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F1955F574E10FA6C5E2EB248A1EC3B9C'
+               BlueprintIdentifier = '96F56A5DBF21AEC4811346A39D41093E'
                BlueprintName = 'RBPlayer-RBPlayer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'RBPlayer.bundle'>
