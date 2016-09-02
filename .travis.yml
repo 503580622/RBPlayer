@@ -1,4 +1,5 @@
 language: objective-c
-xcode_project: Example/RBPlayer.xcodeproj
+xcode_workspace: Example/RBPlayer.xcworkspace
 xcode_scheme: RBPlayer-Example
 osx_image: xcode7.3
+podfile: Example/Podfile
