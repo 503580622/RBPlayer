@@ -39,6 +39,9 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
 @property (nonatomic) RBPlayerState state;
 @property (nonatomic) RBPlayerState beforeEnterBackgroundState;
 
+@property (nonatomic) NSInteger seekSeconds;
+@property (nonatomic, copy) void (^seekCompletionHandler)(BOOL finished);
+
 @end
 
 @implementation RBCorePlayer
@@ -52,9 +55,6 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
         self.state = RBPlayerStateInit;
         self.rate = 1;
         
-        self.avPlayer = [[AVPlayer alloc] init];
-        self.view.containerView.playerLayer.player = self.avPlayer;
-        
         [self addTimerObserver];
         [self addNotification];
     }
@@ -63,19 +63,11 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
 
 - (void)dealloc {
     
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-    
-    [self.avPlayer pause];
-    [self.avPlayer replaceCurrentItemWithPlayerItem:nil];
-    [self.avPlayer removeTimeObserver:self.timeObserver];
+    self.playerItem = nil;
     
     [self.view removeFromSuperview];
     [self.view.containerView.playerLayer removeFromSuperlayer];
-    self.view.containerView.playerLayer.player = nil;
-    
-    self.timeObserver = nil;
-    self.playerItem = nil;
-    self.avPlayer = nil;
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)replaceCurrentItemWithPlayerItem:(RBPlayerItem *)playerItem {
@@ -106,7 +98,6 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
     [self.currentItem updatePlayingAsset:itemAsset];
     
     self.playerItem = [[AVPlayerItem alloc] initWithURL:itemAsset.URL];
-    [self.avPlayer replaceCurrentItemWithPlayerItem:self.playerItem];
     
     [[NSNotificationCenter defaultCenter] postNotificationName:RBPlayerPlayItemAssetNotificationName object:self];
     
@@ -136,12 +127,28 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
             [self playWithItemAsset:self.currentItem.playingAsset];
         }
         return;
+    } else if (self.playerItem.status != AVPlayerItemStatusReadyToPlay) {
+        return;;
     }
     
-    self.state = RBPlayerStatePlaying;
+    if (self.seekSeconds > -1) {
+        __weak typeof(self) weaKSelf = self;
+        [self seekToSeconds:self.seekSeconds completionHandler:^(BOOL finished) {
+            if (weaKSelf.seekCompletionHandler != nil) {
+                weaKSelf.seekCompletionHandler(finished);
+            }
+            weaKSelf.seekSeconds = -1;
+            weaKSelf.seekCompletionHandler = nil;
+        }];
+    } else {
+        self.state = RBPlayerStatePlaying;
+    }
 }
 
 - (void)pause {
+    
+    if (self.playerItem == nil || self.playerItem.status != AVPlayerItemStatusReadyToPlay) return;
+    
     self.state = RBPlayerStatePaused;
 }
 
@@ -151,21 +158,32 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
 
 - (void)seekToSeconds:(NSUInteger)seconds {
     [self seekToSeconds:seconds completionHandler:^(BOOL finished) {
-        NSUInteger canPlaySeconds = self.currentItem.currentSeconds + self.playInMoreBufferSeconds;
-        if (canPlaySeconds > self.currentItem.duration) {
-            canPlaySeconds = self.currentItem.duration;
-        }
-        if (self.currentItem.bufferedSeconds >= canPlaySeconds) {
-            self.state = RBPlayerStatePlaying;
-        } else {
-            self.state = RBPlayerStateBuffering;
+        if (finished) {
+            NSUInteger canPlaySeconds = self.currentItem.currentSeconds + self.playInMoreBufferSeconds;
+            if (canPlaySeconds > self.currentItem.duration) {
+                canPlaySeconds = self.currentItem.duration;
+            }
+            if (self.currentItem.bufferedSeconds >= canPlaySeconds) {
+                self.state = RBPlayerStatePlaying;
+            } else {
+                self.state = RBPlayerStateBuffering;
+            }
         }
     }];
 }
 
 - (void)seekToSeconds:(NSUInteger)seconds completionHandler:(void (^)(BOOL finished))completionHandler {
+    if (self.playerItem.status != AVPlayerItemStatusReadyToPlay) {
+        self.seekSeconds = seconds;
+        self.seekCompletionHandler = completionHandler;
+        return;
+    }
+    
     if ([self.delegate respondsToSelector:@selector(player:willSeekToSeconds:)]) {
         if (![self.delegate player:self willSeekToSeconds:seconds]) {
+            if (completionHandler != nil) {
+                completionHandler(NO);
+            }
             return;
         }
     }
@@ -180,6 +198,8 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
 #pragma mark - selector
 
 - (void)playEnd:(NSNotification *)notification {
+    
+    if (![self.playerItem isEqual:notification.object]) return;
     
     self.state = RBPlayerStateStoped;
     
@@ -226,7 +246,7 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
 }
 
 - (void)observeValueForKeyPath:(nullable NSString *)keyPath ofObject:(nullable id)object change:(nullable NSDictionary<NSString*, id> *)change context:(nullable void *)context {
-   
+    
     if (self.view.superview == nil) return;
     
     if ([keyPath isEqualToString:@"status"]) {
@@ -244,8 +264,8 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
                 break;
             }
             case AVPlayerItemStatusFailed: {
-                self.state = RBPlayerStateError;
                 NSLog(@"%@", self.playerItem.error);
+                self.state = RBPlayerStateError;
                 break;
             }
             default:
@@ -307,10 +327,20 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
         [_playerItem removeObserver:self forKeyPath:@"status"];
         [_playerItem removeObserver:self forKeyPath:@"loadedTimeRanges"];
         [_playerItem removeObserver:self forKeyPath:@"playbackBufferEmpty"];
+        
+        [self.avPlayer pause];
         [self.avPlayer replaceCurrentItemWithPlayerItem:nil];
+        [self.avPlayer removeTimeObserver:self.timeObserver];
+        self.view.containerView.playerLayer.player = nil;
+        self.timeObserver = nil;
     }
     _playerItem = playerItem;
     if (_playerItem != nil) {
+        self.avPlayer = [[AVPlayer alloc] init];
+        self.view.containerView.playerLayer.player = self.avPlayer;
+        [self.avPlayer replaceCurrentItemWithPlayerItem:_playerItem];
+        [self addTimerObserver];
+        
         [_playerItem addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:nil];
         [_playerItem addObserver:self forKeyPath:@"loadedTimeRanges" options:NSKeyValueObservingOptionNew context:nil];
         [_playerItem addObserver:self forKeyPath:@"playbackBufferEmpty" options:NSKeyValueObservingOptionNew context:nil];
@@ -354,7 +384,6 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
         case RBPlayerStateStoped: {
             if (self.playerItem != nil) {
                 [self.avPlayer pause];
-                [self.avPlayer replaceCurrentItemWithPlayerItem:nil];
                 self.playerItem = nil;
             }
             break;
