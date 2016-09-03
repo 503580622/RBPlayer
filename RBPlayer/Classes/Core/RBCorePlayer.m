@@ -55,7 +55,6 @@ NSString *const RBPlayerUpdateBufferedSecondsNotificationName = @"RBPlayerUpdate
         self.state = RBPlayerStateInit;
         self.rate = 1;
         
-        [self addTimerObserver];
         [self addNotification];
     }
     return self;
